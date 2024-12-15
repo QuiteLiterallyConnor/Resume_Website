@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">User Information</h1>
+        <table id="userTable" class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>ID <i class="bi bi-sort-alpha-down sort-icon" data-sort="ID"></i></th>
+                    <th>
+                        IP Address <i class="bi bi-sort-alpha-down sort-icon" data-sort="IP_Address"></i>
+                        <input type="text" id="searchIP" class="form-control form-control-sm mt-2" placeholder="Search IP Address">
+                    </th>
+                    <th>
+                        Country <i class="bi bi-sort-alpha-down sort-icon" data-sort="Country"></i>
+                        <input type="text" id="searchCountry" class="form-control form-control-sm mt-2" placeholder="Search Country">
+                    </th>
+                    <th>
+                        City <i class="bi bi-sort-alpha-down sort-icon" data-sort="City"></i>
+                        <input type="text" id="searchCity" class="form-control form-control-sm mt-2" placeholder="Search City">
+                    </th>
+                    <th>First Time Accessed <i class="bi bi-sort-alpha-down sort-icon" data-sort="First_Time_Accessed"></i></th>
+                    <th>Last Time Accessed <i class="bi bi-sort-alpha-down sort-icon" data-sort="Last_Time_Accessed"></i></th>
+                    <th>Blacklisted <i class="bi bi-sort-alpha-down sort-icon" data-sort="Blacklisted"></i></th>
+                    <th>Actions</th>
+                </tr>
+            </thead>            
+            <tbody>
+                <!-- User data will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="public/main.js"></script>
+</body>
+</html>

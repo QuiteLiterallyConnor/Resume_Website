@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kestrel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/kestrel_styles.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row">
+            <div class="sidebar hidden">
+                <h1 class="title text-center">Kestrel</h1>
+                <div class="specs d-flex justify-content-between text-center my-4">
+                    <div class="spec-item">
+                        <p><strong>30 m/s</strong><br>cruising</p>
+                    </div>
+                    <div class="spec-item">
+                        <p><strong>45+ m/s</strong><br>burst/dive</p>
+                    </div>
+                    <div class="spec-item">
+                        <p><strong>30-40 min</strong><br>flight time</p>
+                    </div>
+                    <div class="spec-item">
+                        <p><strong>20 km</strong><br>range</p>
+                    </div>
+                </div>
+                <div class="segments mt-4">
+                    <div class="segment-box" data-image="combined/image1.jpg">
+                        <h2 class="segment-title">Reusability</h2>
+                        <p class="segment-content">Mechanically isolated striker arm protects airframe.</p>
+                    </div>
+                    <div class="segment-box" data-image="combined/image2.jpg">
+                        <h2 class="segment-title">VTOL Hybrid</h2>
+                        <p class="segment-content">Vertically takes off, converts to fixed wing, lands vertically.</p>
+                    </div>
+                    <div class="segment-box" data-image="combined/image3.jpg">
+                        <h2 class="segment-title">EW Hardened</h>
+                        <p class="segment-content">Autonomous operation; rendering RF and microwave jamming ineffective.</p>
+                    </div>
+                    <div class="segment-box" data-image="combined/image4.jpg">
+                        <h2 class="segment-title">Active EW</h2>
+                        <p class="segment-content">Capable of jamming targeted vehicle's RF.</p>
+                    </div>
+                    <div class="segment-box" data-image="combined/image5.jpg">
+                        <h2 class="segment-title">Reduced RCS</h2>
+                        <p class="segment-content">Shape and coating reduce radar signals.</p>
+                    </div>
+                    <div class="segment-box" data-image="combined/image6.jpg">
+                        <h2 class="segment-title">Advanced Navigation</h2>
+                        <p class="segment-content">Uses terrain reference algorithms and inertial navigation.</p>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button id="expandButton" class="btn btn-primary">Expand</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="threeContainer" class="image-container d-flex align-items-center justify-content-center">
+                <!-- Start Button -->
+                <button id="startButton" class="btn btn-primary">Start</button>
+                <!-- Video element to play before loading Three.js scene -->
+                <video id="introVideo" width="100%" height="100%" class="hidden">
+                    <source src="https://storage.cloud.google.com/resume_connorisseur_com_music/kestrel_vid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="public/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/STLLoader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three.interaction/build/three.interaction.min.js"></script>
+    <script src="public/js/modelLoader.js"></script>
+    <script src="public/js/interactions.js"></script>
+    <script src="public/js/main.js"></script>
+</body>
+</html>
