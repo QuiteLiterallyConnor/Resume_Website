@@ -2,15 +2,15 @@
 
 To run:
 - Install MySQL (sudo apt install mysql-server)
-- Add user "users" with password "User1234" 
+- Add user "users" with password "User1234":
         CREATE USER 'users1234'@'%' IDENTIFIED BY 'User1234';
         GRANT ALL PRIVILEGES ON user_logs.* TO 'users1234'@'%';
         FLUSH PRIVILEGES;
 
-- Create Database
+- Create Database:
     CREATE DATABASE IF NOT EXISTS user_logs;USE user_logs;
 
-- Create table "accessed_parts"
+- Create table "accessed_parts":
     CREATE TABLE IF NOT EXISTS accessed_parts (
         id INT NOT NULL AUTO_INCREMENT,
         user_id INT NOT NULL,
@@ -20,7 +20,7 @@ To run:
         KEY user_id (user_id)
     );
 
-- Create table "user_info"
+- Create table "user_info":
 
 CREATE TABLE IF NOT EXISTS user_info (
     id INT NOT NULL AUTO_INCREMENT,
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS user_info (
     PRIMARY KEY (id)
 );
 
-- Add ngrok key with 
+- Add ngrok key with:
     export NGROK_AUTH_TOKEN=""
 
 - run go main.go
