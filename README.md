@@ -1,6 +1,6 @@
 # Resume_Website
 
-To run:
+ TO INSTALL:
 - Install MySQL (sudo apt install mysql-server)
 - Add user "users" with password "User1234":
         CREATE USER 'users1234'@'%' IDENTIFIED BY 'User1234';
@@ -39,4 +39,12 @@ CREATE TABLE IF NOT EXISTS user_info (
 - Add ngrok key with:
     export NGROK_AUTH_TOKEN=""
 
-- run go main.go
+- Build
+    docker compose build
+
+TO RUN:
+- Docker 
+    docker compose up -d
+or 
+- Standalone
+    go run main.go

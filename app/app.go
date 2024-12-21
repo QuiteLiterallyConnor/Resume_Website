@@ -18,6 +18,7 @@ var (
 	db          *sql.DB
 	tunnel      ngrok.Tunnel
 	stopChannel = make(chan bool)
+	dbEnabled   = true // Flag to indicate whether DB functionality is active
 )
 
 func initLogger() (*os.File, error) {
@@ -31,16 +32,18 @@ func initLogger() (*os.File, error) {
 
 func initDBConnection() error {
 	var err error
-	// Connect to the MySQL server without specifying the database
-	serverDSN := "users1234:User1234@tcp(127.0.0.1:3306)/"
+	serverDSN := "users1234:User1234@tcp(172.18.0.2:3306)/"
 	db, err = sql.Open("mysql", serverDSN)
 	if err != nil {
-		return fmt.Errorf("error opening database connection: %v", err)
+		dbEnabled = false
+		log.Printf("Error opening database connection: %v. Database functionality disabled.", err)
+		return nil // Return nil to avoid halting the server
 	}
 
-	// Verify the connection
 	if err = db.Ping(); err != nil {
-		return fmt.Errorf("error connecting to the database: %v", err)
+		dbEnabled = false
+		log.Printf("Error connecting to the database: %v. Database functionality disabled.", err)
+		return nil
 	}
 
 	log.Println("Connected to MariaDB server successfully")
@@ -56,7 +59,7 @@ func ensureDatabaseAndTables() error {
 	log.Println("Database `user_logs` ensured")
 
 	// Reconnect to the `user_logs` database
-	dsn := "users1234:User1234@tcp(127.0.0.1:3306)/user_logs"
+	dsn := "users1234:User1234@tcp(172.18.0.2:3306)/user_logs"
 	db, err = sql.Open("mysql", dsn)
 	if err != nil {
 		return fmt.Errorf("error connecting to `user_logs` database: %v", err)

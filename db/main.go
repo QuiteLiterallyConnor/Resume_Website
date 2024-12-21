@@ -29,7 +29,7 @@ type AccessedPart struct {
 
 func main() {
 	// Database connection
-	dsn := "users1234:User1234@tcp(127.0.0.1:3306)/user_logs"
+	dsn := "users1234:User1234@tcp(172.18.0.2:3306)/user_logs"
 	db, err := sql.Open("mysql", dsn)
 	if err != nil {
 		log.Fatalf("Error opening database: %v", err)

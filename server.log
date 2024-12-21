@@ -1,0 +1,1617 @@
+2024/12/15 12:21:09 Connected to MariaDB server successfully
+2024/12/15 12:21:09 Database `user_logs` ensured
+2024/12/15 12:21:09 Connected to `user_logs` database successfully
+2024/12/15 12:21:09 Table `accessed_parts` ensured
+2024/12/15 12:21:09 Table `user_info` ensured
+2024/12/15 12:21:09 Ngrok error: NGROK_AUTH_TOKEN is not set in environment variables
+2024/12/15 12:22:07 Connected to MariaDB server successfully
+2024/12/15 12:22:07 Database `user_logs` ensured
+2024/12/15 12:22:07 Connected to `user_logs` database successfully
+2024/12/15 12:22:07 Table `accessed_parts` ensured
+2024/12/15 12:22:07 Table `user_info` ensured
+2024/12/15 12:24:35 Connected to MariaDB server successfully
+2024/12/15 12:24:35 Database `user_logs` ensured
+2024/12/15 12:24:35 Connected to `user_logs` database successfully
+2024/12/15 12:24:35 Table `accessed_parts` ensured
+2024/12/15 12:24:35 Table `user_info` ensured
+2024/12/15 12:24:35 Ngrok error: NGROK_AUTH_TOKEN is not set in environment variables
+2024/12/15 12:24:51 Connected to MariaDB server successfully
+2024/12/15 12:24:51 Database `user_logs` ensured
+2024/12/15 12:24:51 Connected to `user_logs` database successfully
+2024/12/15 12:24:51 Table `accessed_parts` ensured
+2024/12/15 12:24:51 Table `user_info` ensured
+2024/12/15 12:24:52 Started Ngrok server at resume.connorisseur.com
+2024/12/15 12:24:54 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:24:54 Requested path: /
+2024/12/15 12:24:54 Path / not in blacklist
+2024/12/15 12:24:54 Client IP: 173.44.63.119, Request Path: /
+2024/12/15 12:24:54 IP: 173.44.63.119, Country: US, City: Miami
+[GIN] 2024/12/15 - 12:24:54 | 200 |   22.250371ms |   173.44.63.119 | GET      "/"
+2024/12/15 12:24:54 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:24:54 Requested path: /public/css/style.css
+2024/12/15 12:24:54 Path /public/css/style.css not in blacklist
+2024/12/15 12:24:54 Client IP: 173.44.63.119, Request Path: /public/css/style.css
+2024/12/15 12:24:54 IP: 173.44.63.119, Country: US, City: Miami
+[GIN] 2024/12/15 - 12:24:54 | 200 |   10.266936ms |   173.44.63.119 | GET      "/public/css/style.css"
+2024/12/15 12:24:55 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:24:55 Requested path: /public/js/index.js
+2024/12/15 12:24:55 Path /public/js/index.js not in blacklist
+2024/12/15 12:24:55 Client IP: 173.44.63.119, Request Path: /public/js/index.js
+2024/12/15 12:24:55 IP: 173.44.63.119, Country: US, City: Miami
+[GIN] 2024/12/15 - 12:24:55 | 200 |    10.51047ms |   173.44.63.119 | GET      "/public/js/index.js"
+2024/12/15 12:24:57 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:24:57 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:24:57 Requested path: /public/json/portfolio.json
+2024/12/15 12:24:57 Path /public/json/portfolio.json not in blacklist
+2024/12/15 12:24:57 Client IP: 173.44.63.119, Request Path: /public/json/portfolio.json
+2024/12/15 12:24:57 IP: 173.44.63.119, Country: US, City: Miami
+2024/12/15 12:24:57 Requested path: /public/json/resume.json
+2024/12/15 12:24:57 Path /public/json/resume.json not in blacklist
+2024/12/15 12:24:57 Client IP: 173.44.63.119, Request Path: /public/json/resume.json
+2024/12/15 12:24:57 IP: 173.44.63.119, Country: US, City: Miami
+[GIN] 2024/12/15 - 12:24:57 | 200 |   12.715085ms |   173.44.63.119 | GET      "/public/json/portfolio.json"
+[GIN] 2024/12/15 - 12:24:57 | 200 |   13.294072ms |   173.44.63.119 | GET      "/public/json/resume.json"
+2024/12/15 12:24:57 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:24:57 Requested path: /public/json/contacts.json
+2024/12/15 12:24:57 Path /public/json/contacts.json not in blacklist
+2024/12/15 12:24:57 Client IP: 173.44.63.119, Request Path: /public/json/contacts.json
+2024/12/15 12:24:57 IP: 173.44.63.119, Country: US, City: Miami
+[GIN] 2024/12/15 - 12:24:57 | 200 |    6.291333ms |   173.44.63.119 | GET      "/public/json/contacts.json"
+2024/12/15 12:24:57 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:24:57 Requested path: /public/json/about.json
+2024/12/15 12:24:57 Path /public/json/about.json not in blacklist
+2024/12/15 12:24:57 Client IP: 173.44.63.119, Request Path: /public/json/about.json
+2024/12/15 12:24:57 IP: 173.44.63.119, Country: US, City: Miami
+[GIN] 2024/12/15 - 12:24:57 | 200 |    4.142167ms |   173.44.63.119 | GET      "/public/json/about.json"
+2024/12/15 12:25:13 Connected to MariaDB server successfully
+2024/12/15 12:25:13 Database `user_logs` ensured
+2024/12/15 12:25:13 Connected to `user_logs` database successfully
+2024/12/15 12:25:13 Table `accessed_parts` ensured
+2024/12/15 12:25:13 Table `user_info` ensured
+2024/12/15 12:25:13 Started Ngrok server at resume.connorisseur.com
+2024/12/15 12:25:18 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:25:18 Requested path: /
+2024/12/15 12:25:18 Path / not in blacklist
+2024/12/15 12:25:18 Client IP: 173.44.63.119, Request Path: /
+2024/12/15 12:25:18 IP: 173.44.63.119, Country: US, City: Miami
+[GIN] 2024/12/15 - 12:25:18 | 200 |   10.703963ms |   173.44.63.119 | GET      "/"
+2024/12/15 12:25:19 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:25:19 Requested path: /public/css/style.css
+2024/12/15 12:25:19 Path /public/css/style.css not in blacklist
+2024/12/15 12:25:19 Client IP: 173.44.63.119, Request Path: /public/css/style.css
+2024/12/15 12:25:19 IP: 173.44.63.119, Country: US, City: Miami
+[GIN] 2024/12/15 - 12:25:19 | 304 |   11.209405ms |   173.44.63.119 | GET      "/public/css/style.css"
+2024/12/15 12:25:19 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:25:19 Requested path: /public/js/index.js
+2024/12/15 12:25:19 Path /public/js/index.js not in blacklist
+2024/12/15 12:25:19 Client IP: 173.44.63.119, Request Path: /public/js/index.js
+2024/12/15 12:25:19 IP: 173.44.63.119, Country: US, City: Miami
+[GIN] 2024/12/15 - 12:25:19 | 304 |    4.167506ms |   173.44.63.119 | GET      "/public/js/index.js"
+2024/12/15 12:25:20 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:25:20 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:25:20 Requested path: /public/json/portfolio.json
+2024/12/15 12:25:20 Path /public/json/portfolio.json not in blacklist
+2024/12/15 12:25:20 Client IP: 173.44.63.119, Request Path: /public/json/portfolio.json
+2024/12/15 12:25:20 IP: 173.44.63.119, Country: US, City: Miami
+2024/12/15 12:25:20 Requested path: /public/json/resume.json
+2024/12/15 12:25:20 Path /public/json/resume.json not in blacklist
+2024/12/15 12:25:20 Client IP: 173.44.63.119, Request Path: /public/json/resume.json
+2024/12/15 12:25:20 IP: 173.44.63.119, Country: US, City: Miami
+[GIN] 2024/12/15 - 12:25:20 | 200 |   13.449845ms |   173.44.63.119 | GET      "/public/json/portfolio.json"
+[GIN] 2024/12/15 - 12:25:20 | 200 |   13.560474ms |   173.44.63.119 | GET      "/public/json/resume.json"
+2024/12/15 12:25:20 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:25:20 Requested path: /public/json/contacts.json
+2024/12/15 12:25:20 Path /public/json/contacts.json not in blacklist
+2024/12/15 12:25:20 Client IP: 173.44.63.119, Request Path: /public/json/contacts.json
+2024/12/15 12:25:20 IP: 173.44.63.119, Country: US, City: Miami
+[GIN] 2024/12/15 - 12:25:20 | 200 |   11.422769ms |   173.44.63.119 | GET      "/public/json/contacts.json"
+2024/12/15 12:25:20 Checking IP: 173.44.63.119 for blacklist
+2024/12/15 12:25:20 Requested path: /public/json/about.json
+2024/12/15 12:25:20 Path /public/json/about.json not in blacklist
+2024/12/15 12:25:20 Client IP: 173.44.63.119, Request Path: /public/json/about.json
+2024/12/15 12:25:20 IP: 173.44.63.119, Country: US, City: Miami
+[GIN] 2024/12/15 - 12:25:20 | 200 |    4.267029ms |   173.44.63.119 | GET      "/public/json/about.json"
+2024/12/15 13:23:46 Checking IP: 206.189.90.51 for blacklist
+2024/12/15 13:23:46 Requested path: /wp-includes/id3/license.txt/feed/
+2024/12/15 13:23:46 Path /wp-includes/id3/license.txt/feed/ not in blacklist
+2024/12/15 13:23:46 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/feed/
+2024/12/15 13:23:46 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/15 13:23:46 Rejected country: SG
+[GIN] 2024/12/15 - 13:23:46 | 403 |   13.315768ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/feed/"
+2024/12/15 13:23:47 Checking IP: 206.189.90.51 for blacklist
+2024/12/15 13:23:47 Requested path: /wp-includes/id3/license.txt/blog/wp-includes/wlwmanifest.xml
+2024/12/15 13:23:47 Path /wp-includes/id3/license.txt/blog/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 13:23:47 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/blog/wp-includes/wlwmanifest.xml
+2024/12/15 13:23:47 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/15 13:23:47 Rejected country: SG
+[GIN] 2024/12/15 - 13:23:47 | 403 |   10.724579ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/blog/wp-includes/wlwmanifest.xml"
+2024/12/15 13:23:48 Checking IP: 206.189.90.51 for blacklist
+2024/12/15 13:23:48 Requested path: /wp-includes/id3/license.txt/wordpress/wp-includes/wlwmanifest.xml
+2024/12/15 13:23:48 Path /wp-includes/id3/license.txt/wordpress/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 13:23:48 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/wordpress/wp-includes/wlwmanifest.xml
+2024/12/15 13:23:48 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/15 13:23:48 Rejected country: SG
+[GIN] 2024/12/15 - 13:23:48 | 403 |   12.949379ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/wordpress/wp-includes/wlwmanifest.xml"
+2024/12/15 13:23:48 Checking IP: 206.189.90.51 for blacklist
+2024/12/15 13:23:48 Requested path: /wp-includes/id3/license.txt/2020/wp-includes/wlwmanifest.xml
+2024/12/15 13:23:48 Path /wp-includes/id3/license.txt/2020/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 13:23:48 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/2020/wp-includes/wlwmanifest.xml
+2024/12/15 13:23:48 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/15 13:23:48 Rejected country: SG
+[GIN] 2024/12/15 - 13:23:48 | 403 |    12.94938ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/2020/wp-includes/wlwmanifest.xml"
+2024/12/15 13:23:49 Checking IP: 206.189.90.51 for blacklist
+2024/12/15 13:23:49 Requested path: /wp-includes/id3/license.txt/2021/wp-includes/wlwmanifest.xml
+2024/12/15 13:23:49 Path /wp-includes/id3/license.txt/2021/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 13:23:49 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/2021/wp-includes/wlwmanifest.xml
+2024/12/15 13:23:49 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/15 13:23:49 Rejected country: SG
+[GIN] 2024/12/15 - 13:23:49 | 403 |    12.78169ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/2021/wp-includes/wlwmanifest.xml"
+2024/12/15 13:23:50 Checking IP: 206.189.90.51 for blacklist
+2024/12/15 13:23:50 Requested path: /wp-includes/id3/license.txt/wp1/wp-includes/wlwmanifest.xml
+2024/12/15 13:23:50 Path /wp-includes/id3/license.txt/wp1/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 13:23:50 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/wp1/wp-includes/wlwmanifest.xml
+2024/12/15 13:23:50 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/15 13:23:50 Rejected country: SG
+[GIN] 2024/12/15 - 13:23:50 | 403 |   10.884935ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/wp1/wp-includes/wlwmanifest.xml"
+2024/12/15 13:23:51 Checking IP: 206.189.90.51 for blacklist
+2024/12/15 13:23:51 Requested path: /wp-includes/id3/license.txt/site/wp-includes/wlwmanifest.xml
+2024/12/15 13:23:51 Path /wp-includes/id3/license.txt/site/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 13:23:51 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/site/wp-includes/wlwmanifest.xml
+2024/12/15 13:23:51 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/15 13:23:51 Rejected country: SG
+[GIN] 2024/12/15 - 13:23:51 | 403 |   13.103309ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/site/wp-includes/wlwmanifest.xml"
+2024/12/15 14:29:28 Checking IP: 174.138.22.21 for blacklist
+2024/12/15 14:29:28 Requested path: /wp-includes/id3/license.txt/feed/
+2024/12/15 14:29:28 Path /wp-includes/id3/license.txt/feed/ not in blacklist
+2024/12/15 14:29:28 Client IP: 174.138.22.21, Request Path: /wp-includes/id3/license.txt/feed/
+2024/12/15 14:29:28 IP: 174.138.22.21, Country: SG, City: Singapore
+2024/12/15 14:29:28 Rejected country: SG
+[GIN] 2024/12/15 - 14:29:28 | 403 |   13.501886ms |   174.138.22.21 | GET      "/wp-includes/id3/license.txt/feed/"
+2024/12/15 14:29:30 Checking IP: 174.138.22.21 for blacklist
+2024/12/15 14:29:30 Requested path: /wp-includes/id3/license.txt/blog/wp-includes/wlwmanifest.xml
+2024/12/15 14:29:30 Path /wp-includes/id3/license.txt/blog/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 14:29:30 Client IP: 174.138.22.21, Request Path: /wp-includes/id3/license.txt/blog/wp-includes/wlwmanifest.xml
+2024/12/15 14:29:30 IP: 174.138.22.21, Country: SG, City: Singapore
+2024/12/15 14:29:30 Rejected country: SG
+[GIN] 2024/12/15 - 14:29:30 | 403 |   12.590107ms |   174.138.22.21 | GET      "/wp-includes/id3/license.txt/blog/wp-includes/wlwmanifest.xml"
+2024/12/15 14:29:33 Checking IP: 174.138.22.21 for blacklist
+2024/12/15 14:29:33 Requested path: /wp-includes/id3/license.txt/wordpress/wp-includes/wlwmanifest.xml
+2024/12/15 14:29:33 Path /wp-includes/id3/license.txt/wordpress/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 14:29:33 Client IP: 174.138.22.21, Request Path: /wp-includes/id3/license.txt/wordpress/wp-includes/wlwmanifest.xml
+2024/12/15 14:29:33 IP: 174.138.22.21, Country: SG, City: Singapore
+2024/12/15 14:29:33 Rejected country: SG
+[GIN] 2024/12/15 - 14:29:33 | 403 |    6.569146ms |   174.138.22.21 | GET      "/wp-includes/id3/license.txt/wordpress/wp-includes/wlwmanifest.xml"
+2024/12/15 14:29:36 Checking IP: 174.138.22.21 for blacklist
+2024/12/15 14:29:36 Requested path: /wp-includes/id3/license.txt/2020/wp-includes/wlwmanifest.xml
+2024/12/15 14:29:36 Path /wp-includes/id3/license.txt/2020/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 14:29:36 Client IP: 174.138.22.21, Request Path: /wp-includes/id3/license.txt/2020/wp-includes/wlwmanifest.xml
+2024/12/15 14:29:36 IP: 174.138.22.21, Country: SG, City: Singapore
+2024/12/15 14:29:36 Rejected country: SG
+[GIN] 2024/12/15 - 14:29:36 | 403 |   12.342589ms |   174.138.22.21 | GET      "/wp-includes/id3/license.txt/2020/wp-includes/wlwmanifest.xml"
+2024/12/15 14:29:39 Checking IP: 174.138.22.21 for blacklist
+2024/12/15 14:29:39 Requested path: /wp-includes/id3/license.txt/2021/wp-includes/wlwmanifest.xml
+2024/12/15 14:29:39 Path /wp-includes/id3/license.txt/2021/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 14:29:39 Client IP: 174.138.22.21, Request Path: /wp-includes/id3/license.txt/2021/wp-includes/wlwmanifest.xml
+2024/12/15 14:29:39 IP: 174.138.22.21, Country: SG, City: Singapore
+2024/12/15 14:29:39 Rejected country: SG
+[GIN] 2024/12/15 - 14:29:39 | 403 |   12.750323ms |   174.138.22.21 | GET      "/wp-includes/id3/license.txt/2021/wp-includes/wlwmanifest.xml"
+2024/12/15 14:29:42 Checking IP: 174.138.22.21 for blacklist
+2024/12/15 14:29:42 Requested path: /wp-includes/id3/license.txt/wp1/wp-includes/wlwmanifest.xml
+2024/12/15 14:29:42 Path /wp-includes/id3/license.txt/wp1/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 14:29:42 Client IP: 174.138.22.21, Request Path: /wp-includes/id3/license.txt/wp1/wp-includes/wlwmanifest.xml
+2024/12/15 14:29:42 IP: 174.138.22.21, Country: SG, City: Singapore
+2024/12/15 14:29:42 Rejected country: SG
+[GIN] 2024/12/15 - 14:29:42 | 403 |   12.080404ms |   174.138.22.21 | GET      "/wp-includes/id3/license.txt/wp1/wp-includes/wlwmanifest.xml"
+2024/12/15 14:29:45 Checking IP: 174.138.22.21 for blacklist
+2024/12/15 14:29:45 Requested path: /wp-includes/id3/license.txt/site/wp-includes/wlwmanifest.xml
+2024/12/15 14:29:45 Path /wp-includes/id3/license.txt/site/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 14:29:45 Client IP: 174.138.22.21, Request Path: /wp-includes/id3/license.txt/site/wp-includes/wlwmanifest.xml
+2024/12/15 14:29:45 IP: 174.138.22.21, Country: SG, City: Singapore
+2024/12/15 14:29:45 Rejected country: SG
+[GIN] 2024/12/15 - 14:29:45 | 403 |   12.348525ms |   174.138.22.21 | GET      "/wp-includes/id3/license.txt/site/wp-includes/wlwmanifest.xml"
+2024/12/15 18:05:28 Checking IP: 43.135.145.73 for blacklist
+2024/12/15 18:05:28 Requested path: /
+2024/12/15 18:05:28 Path / not in blacklist
+2024/12/15 18:05:28 Client IP: 43.135.145.73, Request Path: /
+2024/12/15 18:05:28 IP: 43.135.145.73, Country: US, City: Santa Clara
+[GIN] 2024/12/15 - 18:05:28 | 200 |   13.262292ms |   43.135.145.73 | GET      "/"
+2024/12/15 18:41:47 Checking IP: 138.199.60.11 for blacklist
+2024/12/15 18:41:47 Requested path: //wp-includes/wlwmanifest.xml
+2024/12/15 18:41:47 Path //wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 18:41:47 Client IP: 138.199.60.11, Request Path: //wp-includes/wlwmanifest.xml
+2024/12/15 18:41:47 IP: 138.199.60.11, Country: SG, City: Singapore
+2024/12/15 18:41:47 Rejected country: SG
+[GIN] 2024/12/15 - 18:41:47 | 403 |   13.631728ms |   138.199.60.11 | GET      "//wp-includes/wlwmanifest.xml"
+2024/12/15 18:41:50 Checking IP: 138.199.60.11 for blacklist
+2024/12/15 18:41:50 Requested path: /
+2024/12/15 18:41:50 Path / not in blacklist
+2024/12/15 18:41:50 Client IP: 138.199.60.11, Request Path: /
+2024/12/15 18:41:50 IP: 138.199.60.11, Country: SG, City: Singapore
+2024/12/15 18:41:50 Rejected country: SG
+[GIN] 2024/12/15 - 18:41:50 | 403 |   13.258425ms |   138.199.60.11 | GET      "/"
+2024/12/15 18:41:54 Checking IP: 138.199.60.11 for blacklist
+2024/12/15 18:41:54 Requested path: //web/wp-includes/wlwmanifest.xml
+2024/12/15 18:41:54 Path //web/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 18:41:54 Client IP: 138.199.60.11, Request Path: //web/wp-includes/wlwmanifest.xml
+2024/12/15 18:41:54 IP: 138.199.60.11, Country: SG, City: Singapore
+2024/12/15 18:41:54 Rejected country: SG
+[GIN] 2024/12/15 - 18:41:54 | 403 |   12.344409ms |   138.199.60.11 | GET      "//web/wp-includes/wlwmanifest.xml"
+2024/12/15 18:41:56 Checking IP: 138.199.60.11 for blacklist
+2024/12/15 18:41:56 Requested path: //website/wp-includes/wlwmanifest.xml
+2024/12/15 18:41:56 Path //website/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 18:41:56 Client IP: 138.199.60.11, Request Path: //website/wp-includes/wlwmanifest.xml
+2024/12/15 18:41:56 IP: 138.199.60.11, Country: SG, City: Singapore
+2024/12/15 18:41:56 Rejected country: SG
+[GIN] 2024/12/15 - 18:41:56 | 403 |   12.658696ms |   138.199.60.11 | GET      "//website/wp-includes/wlwmanifest.xml"
+2024/12/15 18:41:58 Checking IP: 138.199.60.11 for blacklist
+2024/12/15 18:41:58 Requested path: //news/wp-includes/wlwmanifest.xml
+2024/12/15 18:41:58 Path //news/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 18:41:58 Client IP: 138.199.60.11, Request Path: //news/wp-includes/wlwmanifest.xml
+2024/12/15 18:41:58 IP: 138.199.60.11, Country: SG, City: Singapore
+2024/12/15 18:41:58 Rejected country: SG
+[GIN] 2024/12/15 - 18:41:58 | 403 |   12.572721ms |   138.199.60.11 | GET      "//news/wp-includes/wlwmanifest.xml"
+2024/12/15 18:42:00 Checking IP: 138.199.60.11 for blacklist
+2024/12/15 18:42:00 Requested path: //2019/wp-includes/wlwmanifest.xml
+2024/12/15 18:42:00 Path //2019/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 18:42:00 Client IP: 138.199.60.11, Request Path: //2019/wp-includes/wlwmanifest.xml
+2024/12/15 18:42:00 IP: 138.199.60.11, Country: SG, City: Singapore
+2024/12/15 18:42:00 Rejected country: SG
+[GIN] 2024/12/15 - 18:42:00 | 403 |   13.289993ms |   138.199.60.11 | GET      "//2019/wp-includes/wlwmanifest.xml"
+2024/12/15 18:42:03 Checking IP: 138.199.60.11 for blacklist
+2024/12/15 18:42:03 Requested path: //wp1/wp-includes/wlwmanifest.xml
+2024/12/15 18:42:03 Path //wp1/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 18:42:03 Client IP: 138.199.60.11, Request Path: //wp1/wp-includes/wlwmanifest.xml
+2024/12/15 18:42:03 IP: 138.199.60.11, Country: SG, City: Singapore
+2024/12/15 18:42:03 Rejected country: SG
+[GIN] 2024/12/15 - 18:42:03 | 403 |    6.717911ms |   138.199.60.11 | GET      "//wp1/wp-includes/wlwmanifest.xml"
+2024/12/15 18:42:05 Checking IP: 138.199.60.11 for blacklist
+2024/12/15 18:42:05 Requested path: //media/wp-includes/wlwmanifest.xml
+2024/12/15 18:42:05 Path //media/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 18:42:05 Client IP: 138.199.60.11, Request Path: //media/wp-includes/wlwmanifest.xml
+2024/12/15 18:42:05 IP: 138.199.60.11, Country: SG, City: Singapore
+2024/12/15 18:42:05 Rejected country: SG
+[GIN] 2024/12/15 - 18:42:05 | 403 |   13.673493ms |   138.199.60.11 | GET      "//media/wp-includes/wlwmanifest.xml"
+2024/12/15 18:42:07 Checking IP: 138.199.60.11 for blacklist
+2024/12/15 18:42:07 Requested path: //site/wp-includes/wlwmanifest.xml
+2024/12/15 18:42:07 Path //site/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 18:42:07 Client IP: 138.199.60.11, Request Path: //site/wp-includes/wlwmanifest.xml
+2024/12/15 18:42:07 IP: 138.199.60.11, Country: SG, City: Singapore
+2024/12/15 18:42:07 Rejected country: SG
+[GIN] 2024/12/15 - 18:42:07 | 403 |   12.784201ms |   138.199.60.11 | GET      "//site/wp-includes/wlwmanifest.xml"
+2024/12/15 18:42:09 Checking IP: 138.199.60.11 for blacklist
+2024/12/15 18:42:09 Requested path: //sito/wp-includes/wlwmanifest.xml
+2024/12/15 18:42:09 Path //sito/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/15 18:42:09 Client IP: 138.199.60.11, Request Path: //sito/wp-includes/wlwmanifest.xml
+2024/12/15 18:42:09 IP: 138.199.60.11, Country: SG, City: Singapore
+2024/12/15 18:42:09 Rejected country: SG
+[GIN] 2024/12/15 - 18:42:09 | 403 |    6.670907ms |   138.199.60.11 | GET      "//sito/wp-includes/wlwmanifest.xml"
+2024/12/15 23:08:42 Checking IP: 185.91.69.125 for blacklist
+2024/12/15 23:08:42 Requested path: /
+2024/12/15 23:08:42 Path / not in blacklist
+2024/12/15 23:08:42 Client IP: 185.91.69.125, Request Path: /
+2024/12/15 23:08:42 IP: 185.91.69.125, Country: GB, City: London
+[GIN] 2024/12/15 - 23:08:42 | 200 |   13.330367ms |   185.91.69.125 | GET      "/"
+2024/12/15 23:08:50 Checking IP: 185.91.69.125 for blacklist
+2024/12/15 23:08:50 Requested path: /
+2024/12/15 23:08:50 Path / not in blacklist
+2024/12/15 23:08:50 Client IP: 185.91.69.125, Request Path: /
+2024/12/15 23:08:50 IP: 185.91.69.125, Country: GB, City: London
+[GIN] 2024/12/15 - 23:08:50 | 200 |   12.711641ms |   185.91.69.125 | GET      "/"
+2024/12/15 23:08:50 Checking IP: 185.91.69.125 for blacklist
+2024/12/15 23:08:50 Requested path: /kestrel
+2024/12/15 23:08:50 Path /kestrel not in blacklist
+2024/12/15 23:08:50 Client IP: 185.91.69.125, Request Path: /kestrel
+2024/12/15 23:08:50 IP: 185.91.69.125, Country: GB, City: London
+[GIN] 2024/12/15 - 23:08:50 | 404 |   10.926213ms |   185.91.69.125 | GET      "/kestrel"
+2024/12/15 23:08:51 Checking IP: 185.91.69.125 for blacklist
+2024/12/15 23:08:51 Requested path: /
+2024/12/15 23:08:51 Path / not in blacklist
+2024/12/15 23:08:51 Client IP: 185.91.69.125, Request Path: /
+2024/12/15 23:08:51 IP: 185.91.69.125, Country: GB, City: London
+[GIN] 2024/12/15 - 23:08:51 | 200 |   10.457088ms |   185.91.69.125 | GET      "/"
+2024/12/16 07:34:53 Checking IP: 143.110.185.219 for blacklist
+2024/12/16 07:34:53 Requested path: //wp-includes/wlwmanifest.xml
+2024/12/16 07:34:53 Path //wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 07:34:53 Client IP: 143.110.185.219, Request Path: //wp-includes/wlwmanifest.xml
+2024/12/16 07:34:53 IP: 143.110.185.219, Country: IN, City: Bengaluru
+2024/12/16 07:34:53 Rejected country: IN
+[GIN] 2024/12/16 - 07:34:53 | 403 |   13.966545ms | 143.110.185.219 | GET      "//wp-includes/wlwmanifest.xml"
+2024/12/16 07:34:54 Checking IP: 143.110.185.219 for blacklist
+2024/12/16 07:34:54 Requested path: /
+2024/12/16 07:34:54 Path / not in blacklist
+2024/12/16 07:34:54 Client IP: 143.110.185.219, Request Path: /
+2024/12/16 07:34:54 IP: 143.110.185.219, Country: IN, City: Bengaluru
+2024/12/16 07:34:54 Rejected country: IN
+[GIN] 2024/12/16 - 07:34:54 | 403 |   11.082092ms | 143.110.185.219 | GET      "/"
+2024/12/16 07:34:54 Checking IP: 143.110.185.219 for blacklist
+2024/12/16 07:34:54 Requested path: //web/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:54 Path //web/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 07:34:54 Client IP: 143.110.185.219, Request Path: //web/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:54 IP: 143.110.185.219, Country: IN, City: Bengaluru
+2024/12/16 07:34:54 Rejected country: IN
+[GIN] 2024/12/16 - 07:34:54 | 403 |   12.454546ms | 143.110.185.219 | GET      "//web/wp-includes/wlwmanifest.xml"
+2024/12/16 07:34:55 Checking IP: 143.110.185.219 for blacklist
+2024/12/16 07:34:55 Requested path: //website/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:55 Path //website/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 07:34:55 Client IP: 143.110.185.219, Request Path: //website/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:55 IP: 143.110.185.219, Country: IN, City: Bengaluru
+2024/12/16 07:34:55 Rejected country: IN
+[GIN] 2024/12/16 - 07:34:55 | 403 |    10.63818ms | 143.110.185.219 | GET      "//website/wp-includes/wlwmanifest.xml"
+2024/12/16 07:34:55 Checking IP: 143.110.185.219 for blacklist
+2024/12/16 07:34:55 Requested path: //news/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:55 Path //news/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 07:34:55 Client IP: 143.110.185.219, Request Path: //news/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:55 IP: 143.110.185.219, Country: IN, City: Bengaluru
+2024/12/16 07:34:56 Rejected country: IN
+[GIN] 2024/12/16 - 07:34:56 | 403 |   13.280771ms | 143.110.185.219 | GET      "//news/wp-includes/wlwmanifest.xml"
+2024/12/16 07:34:56 Checking IP: 143.110.185.219 for blacklist
+2024/12/16 07:34:56 Requested path: //2019/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:56 Path //2019/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 07:34:56 Client IP: 143.110.185.219, Request Path: //2019/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:56 IP: 143.110.185.219, Country: IN, City: Bengaluru
+2024/12/16 07:34:56 Rejected country: IN
+[GIN] 2024/12/16 - 07:34:56 | 403 |   13.256816ms | 143.110.185.219 | GET      "//2019/wp-includes/wlwmanifest.xml"
+2024/12/16 07:34:57 Checking IP: 143.110.185.219 for blacklist
+2024/12/16 07:34:57 Requested path: //wp1/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:57 Path //wp1/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 07:34:57 Client IP: 143.110.185.219, Request Path: //wp1/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:57 IP: 143.110.185.219, Country: IN, City: Bengaluru
+2024/12/16 07:34:57 Rejected country: IN
+[GIN] 2024/12/16 - 07:34:57 | 403 |   10.982289ms | 143.110.185.219 | GET      "//wp1/wp-includes/wlwmanifest.xml"
+2024/12/16 07:34:57 Checking IP: 143.110.185.219 for blacklist
+2024/12/16 07:34:57 Requested path: //media/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:57 Path //media/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 07:34:57 Client IP: 143.110.185.219, Request Path: //media/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:57 IP: 143.110.185.219, Country: IN, City: Bengaluru
+2024/12/16 07:34:57 Rejected country: IN
+[GIN] 2024/12/16 - 07:34:57 | 403 |   12.606662ms | 143.110.185.219 | GET      "//media/wp-includes/wlwmanifest.xml"
+2024/12/16 07:34:58 Checking IP: 143.110.185.219 for blacklist
+2024/12/16 07:34:58 Requested path: //site/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:58 Path //site/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 07:34:58 Client IP: 143.110.185.219, Request Path: //site/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:58 IP: 143.110.185.219, Country: IN, City: Bengaluru
+2024/12/16 07:34:58 Rejected country: IN
+[GIN] 2024/12/16 - 07:34:58 | 403 |   10.532231ms | 143.110.185.219 | GET      "//site/wp-includes/wlwmanifest.xml"
+2024/12/16 07:34:58 Checking IP: 143.110.185.219 for blacklist
+2024/12/16 07:34:58 Requested path: //sito/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:58 Path //sito/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 07:34:58 Client IP: 143.110.185.219, Request Path: //sito/wp-includes/wlwmanifest.xml
+2024/12/16 07:34:58 IP: 143.110.185.219, Country: IN, City: Bengaluru
+2024/12/16 07:34:58 Rejected country: IN
+[GIN] 2024/12/16 - 07:34:58 | 403 |   12.407892ms | 143.110.185.219 | GET      "//sito/wp-includes/wlwmanifest.xml"
+2024/12/16 10:53:10 Checking IP: 20.171.207.7 for blacklist
+2024/12/16 10:53:10 Requested path: /
+2024/12/16 10:53:10 Path / not in blacklist
+2024/12/16 10:53:10 Client IP: 20.171.207.7, Request Path: /
+2024/12/16 10:53:10 IP: 20.171.207.7, Country: US, City: Phoenix
+[GIN] 2024/12/16 - 10:53:10 | 200 |   13.642122ms |    20.171.207.7 | GET      "/"
+2024/12/16 10:53:33 Checking IP: 20.171.207.22 for blacklist
+2024/12/16 10:53:33 Requested path: /robots.txt
+2024/12/16 10:53:33 Path /robots.txt not in blacklist
+2024/12/16 10:53:33 Client IP: 20.171.207.22, Request Path: /robots.txt
+2024/12/16 10:53:33 IP: 20.171.207.22, Country: US, City: Phoenix
+2024/12/16 10:53:33 robots.txt requested
+[GIN] 2024/12/16 - 10:53:33 | 200 |   12.899219ms |   20.171.207.22 | GET      "/robots.txt"
+2024/12/16 11:25:40 Checking IP: 49.51.183.84 for blacklist
+2024/12/16 11:25:40 Requested path: /
+2024/12/16 11:25:40 Path / not in blacklist
+2024/12/16 11:25:40 Client IP: 49.51.183.84, Request Path: /
+2024/12/16 11:25:40 IP: 49.51.183.84, Country: US, City: 
+[GIN] 2024/12/16 - 11:25:40 | 200 |   13.465583ms |    49.51.183.84 | GET      "/"
+2024/12/16 11:40:41 Checking IP: 104.166.80.143 for blacklist
+2024/12/16 11:40:41 Requested path: /
+2024/12/16 11:40:41 Path / not in blacklist
+2024/12/16 11:40:41 Client IP: 104.166.80.143, Request Path: /
+2024/12/16 11:40:41 IP: 104.166.80.143, Country: US, City: Los Angeles
+[GIN] 2024/12/16 - 11:40:41 | 200 |   13.415151ms |  104.166.80.143 | GET      "/"
+2024/12/16 12:16:07 Checking IP: 34.75.200.137 for blacklist
+2024/12/16 12:16:07 Requested path: //wp-includes/wlwmanifest.xml
+2024/12/16 12:16:07 Path //wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 12:16:07 Client IP: 34.75.200.137, Request Path: //wp-includes/wlwmanifest.xml
+2024/12/16 12:16:07 IP: 34.75.200.137, Country: US, City: North Charleston
+[GIN] 2024/12/16 - 12:16:07 | 404 |    13.98854ms |   34.75.200.137 | GET      "//wp-includes/wlwmanifest.xml"
+2024/12/16 12:16:08 Checking IP: 34.75.200.137 for blacklist
+2024/12/16 12:16:08 Requested path: /
+2024/12/16 12:16:08 Path / not in blacklist
+2024/12/16 12:16:08 Client IP: 34.75.200.137, Request Path: /
+2024/12/16 12:16:08 IP: 34.75.200.137, Country: US, City: North Charleston
+[GIN] 2024/12/16 - 12:16:08 | 200 |    10.42544ms |   34.75.200.137 | GET      "/"
+2024/12/16 12:16:08 Checking IP: 34.75.200.137 for blacklist
+2024/12/16 12:16:08 Requested path: //web/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:08 Path //web/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 12:16:08 Client IP: 34.75.200.137, Request Path: //web/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:08 IP: 34.75.200.137, Country: US, City: North Charleston
+[GIN] 2024/12/16 - 12:16:08 | 404 |   10.301401ms |   34.75.200.137 | GET      "//web/wp-includes/wlwmanifest.xml"
+2024/12/16 12:16:08 Checking IP: 34.75.200.137 for blacklist
+2024/12/16 12:16:08 Requested path: //website/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:08 Path //website/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 12:16:08 Client IP: 34.75.200.137, Request Path: //website/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:08 IP: 34.75.200.137, Country: US, City: North Charleston
+[GIN] 2024/12/16 - 12:16:08 | 404 |    13.89181ms |   34.75.200.137 | GET      "//website/wp-includes/wlwmanifest.xml"
+2024/12/16 12:16:08 Checking IP: 34.75.200.137 for blacklist
+2024/12/16 12:16:08 Requested path: //news/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:08 Path //news/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 12:16:08 Client IP: 34.75.200.137, Request Path: //news/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:08 IP: 34.75.200.137, Country: US, City: North Charleston
+[GIN] 2024/12/16 - 12:16:08 | 404 |   11.533195ms |   34.75.200.137 | GET      "//news/wp-includes/wlwmanifest.xml"
+2024/12/16 12:16:09 Checking IP: 34.75.200.137 for blacklist
+2024/12/16 12:16:09 Requested path: //2019/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:09 Path //2019/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 12:16:09 Client IP: 34.75.200.137, Request Path: //2019/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:09 IP: 34.75.200.137, Country: US, City: North Charleston
+[GIN] 2024/12/16 - 12:16:09 | 404 |   11.102692ms |   34.75.200.137 | GET      "//2019/wp-includes/wlwmanifest.xml"
+2024/12/16 12:16:09 Checking IP: 34.75.200.137 for blacklist
+2024/12/16 12:16:09 Requested path: //wp1/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:09 Path //wp1/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 12:16:09 Client IP: 34.75.200.137, Request Path: //wp1/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:09 IP: 34.75.200.137, Country: US, City: North Charleston
+[GIN] 2024/12/16 - 12:16:09 | 404 |   12.142142ms |   34.75.200.137 | GET      "//wp1/wp-includes/wlwmanifest.xml"
+2024/12/16 12:16:09 Checking IP: 34.75.200.137 for blacklist
+2024/12/16 12:16:09 Requested path: //media/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:09 Path //media/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 12:16:09 Client IP: 34.75.200.137, Request Path: //media/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:09 IP: 34.75.200.137, Country: US, City: North Charleston
+[GIN] 2024/12/16 - 12:16:09 | 404 |   12.613083ms |   34.75.200.137 | GET      "//media/wp-includes/wlwmanifest.xml"
+2024/12/16 12:16:09 Checking IP: 34.75.200.137 for blacklist
+2024/12/16 12:16:09 Requested path: //site/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:09 Path //site/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 12:16:09 Client IP: 34.75.200.137, Request Path: //site/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:09 IP: 34.75.200.137, Country: US, City: North Charleston
+[GIN] 2024/12/16 - 12:16:09 | 404 |   11.682585ms |   34.75.200.137 | GET      "//site/wp-includes/wlwmanifest.xml"
+2024/12/16 12:16:10 Checking IP: 34.75.200.137 for blacklist
+2024/12/16 12:16:10 Requested path: //sito/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:10 Path //sito/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 12:16:10 Client IP: 34.75.200.137, Request Path: //sito/wp-includes/wlwmanifest.xml
+2024/12/16 12:16:10 IP: 34.75.200.137, Country: US, City: North Charleston
+[GIN] 2024/12/16 - 12:16:10 | 404 |    5.110646ms |   34.75.200.137 | GET      "//sito/wp-includes/wlwmanifest.xml"
+2024/12/16 13:49:06 Checking IP: 206.189.139.87 for blacklist
+2024/12/16 13:49:06 Requested path: /
+2024/12/16 13:49:06 Path / not in blacklist
+2024/12/16 13:49:06 Client IP: 206.189.139.87, Request Path: /
+2024/12/16 13:49:06 IP: 206.189.139.87, Country: IN, City: Bengaluru
+2024/12/16 13:49:06 Rejected country: IN
+[GIN] 2024/12/16 - 13:49:06 | 403 |   13.691231ms |  206.189.139.87 | GET      "/"
+2024/12/16 14:09:34 Checking IP: 20.98.104.241 for blacklist
+2024/12/16 14:09:34 Requested path: /
+2024/12/16 14:09:34 Path / not in blacklist
+2024/12/16 14:09:34 Client IP: 20.98.104.241, Request Path: /
+2024/12/16 14:09:34 IP: 20.98.104.241, Country: US, City: 
+[GIN] 2024/12/16 - 14:09:34 | 200 |   13.665868ms |   20.98.104.241 | GET      "/"
+2024/12/16 17:04:29 Checking IP: 34.60.12.87 for blacklist
+2024/12/16 17:04:29 Requested path: //wp-includes/wlwmanifest.xml
+2024/12/16 17:04:29 Path //wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 17:04:29 Client IP: 34.60.12.87, Request Path: //wp-includes/wlwmanifest.xml
+2024/12/16 17:04:29 IP: 34.60.12.87, Country: US, City: 
+[GIN] 2024/12/16 - 17:04:29 | 404 |   13.725327ms |     34.60.12.87 | GET      "//wp-includes/wlwmanifest.xml"
+2024/12/16 17:04:29 Checking IP: 34.60.12.87 for blacklist
+2024/12/16 17:04:29 Requested path: /
+2024/12/16 17:04:29 Path / not in blacklist
+2024/12/16 17:04:29 Client IP: 34.60.12.87, Request Path: /
+2024/12/16 17:04:29 IP: 34.60.12.87, Country: US, City: 
+[GIN] 2024/12/16 - 17:04:29 | 200 |   10.949126ms |     34.60.12.87 | GET      "/"
+2024/12/16 17:04:29 Checking IP: 34.60.12.87 for blacklist
+2024/12/16 17:04:29 Requested path: //web/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:29 Path //web/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 17:04:29 Client IP: 34.60.12.87, Request Path: //web/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:29 IP: 34.60.12.87, Country: US, City: 
+[GIN] 2024/12/16 - 17:04:30 | 404 |    4.371521ms |     34.60.12.87 | GET      "//web/wp-includes/wlwmanifest.xml"
+2024/12/16 17:04:30 Checking IP: 34.60.12.87 for blacklist
+2024/12/16 17:04:30 Requested path: //website/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:30 Path //website/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 17:04:30 Client IP: 34.60.12.87, Request Path: //website/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:30 IP: 34.60.12.87, Country: US, City: 
+[GIN] 2024/12/16 - 17:04:30 | 404 |    9.247367ms |     34.60.12.87 | GET      "//website/wp-includes/wlwmanifest.xml"
+2024/12/16 17:04:30 Checking IP: 34.60.12.87 for blacklist
+2024/12/16 17:04:30 Requested path: //news/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:30 Path //news/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 17:04:30 Client IP: 34.60.12.87, Request Path: //news/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:30 IP: 34.60.12.87, Country: US, City: 
+[GIN] 2024/12/16 - 17:04:30 | 404 |   10.702865ms |     34.60.12.87 | GET      "//news/wp-includes/wlwmanifest.xml"
+2024/12/16 17:04:30 Checking IP: 34.60.12.87 for blacklist
+2024/12/16 17:04:30 Requested path: //2019/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:30 Path //2019/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 17:04:30 Client IP: 34.60.12.87, Request Path: //2019/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:30 IP: 34.60.12.87, Country: US, City: 
+[GIN] 2024/12/16 - 17:04:30 | 404 |   13.421167ms |     34.60.12.87 | GET      "//2019/wp-includes/wlwmanifest.xml"
+2024/12/16 17:04:30 Checking IP: 34.60.12.87 for blacklist
+2024/12/16 17:04:30 Requested path: //wp1/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:30 Path //wp1/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 17:04:30 Client IP: 34.60.12.87, Request Path: //wp1/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:30 IP: 34.60.12.87, Country: US, City: 
+[GIN] 2024/12/16 - 17:04:30 | 404 |    10.45353ms |     34.60.12.87 | GET      "//wp1/wp-includes/wlwmanifest.xml"
+2024/12/16 17:04:31 Checking IP: 34.60.12.87 for blacklist
+2024/12/16 17:04:31 Requested path: //media/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:31 Path //media/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 17:04:31 Client IP: 34.60.12.87, Request Path: //media/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:31 IP: 34.60.12.87, Country: US, City: 
+[GIN] 2024/12/16 - 17:04:31 | 404 |   11.160956ms |     34.60.12.87 | GET      "//media/wp-includes/wlwmanifest.xml"
+2024/12/16 17:04:31 Checking IP: 34.60.12.87 for blacklist
+2024/12/16 17:04:31 Requested path: //site/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:31 Path //site/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 17:04:31 Client IP: 34.60.12.87, Request Path: //site/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:31 IP: 34.60.12.87, Country: US, City: 
+[GIN] 2024/12/16 - 17:04:31 | 404 |    4.141323ms |     34.60.12.87 | GET      "//site/wp-includes/wlwmanifest.xml"
+2024/12/16 17:04:31 Checking IP: 34.60.12.87 for blacklist
+2024/12/16 17:04:31 Requested path: //sito/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:31 Path //sito/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/16 17:04:31 Client IP: 34.60.12.87, Request Path: //sito/wp-includes/wlwmanifest.xml
+2024/12/16 17:04:31 IP: 34.60.12.87, Country: US, City: 
+[GIN] 2024/12/16 - 17:04:31 | 404 |   13.694456ms |     34.60.12.87 | GET      "//sito/wp-includes/wlwmanifest.xml"
+2024/12/16 18:05:34 Checking IP: 170.106.110.146 for blacklist
+2024/12/16 18:05:34 Requested path: /
+2024/12/16 18:05:34 Path / not in blacklist
+2024/12/16 18:05:34 Client IP: 170.106.110.146, Request Path: /
+2024/12/16 18:05:34 IP: 170.106.110.146, Country: US, City: 
+[GIN] 2024/12/16 - 18:05:34 | 200 |   13.423104ms | 170.106.110.146 | GET      "/"
+2024/12/16 19:19:01 Checking IP: 104.223.52.74 for blacklist
+2024/12/16 19:19:01 Requested path: /
+2024/12/16 19:19:01 Path / not in blacklist
+2024/12/16 19:19:01 Client IP: 104.223.52.74, Request Path: /
+2024/12/16 19:19:01 IP: 104.223.52.74, Country: US, City: Los Angeles
+[GIN] 2024/12/16 - 19:19:01 | 200 |   14.329853ms |   104.223.52.74 | GET      "/"
+2024/12/16 19:19:31 Checking IP: 75.127.5.46 for blacklist
+2024/12/16 19:19:31 Requested path: /
+2024/12/16 19:19:31 Path / not in blacklist
+2024/12/16 19:19:31 Client IP: 75.127.5.46, Request Path: /
+2024/12/16 19:19:31 IP: 75.127.5.46, Country: US, City: Dallas
+[GIN] 2024/12/16 - 19:19:31 | 200 |   12.434357ms |     75.127.5.46 | GET      "/"
+2024/12/16 19:19:32 Checking IP: 75.127.5.46 for blacklist
+2024/12/16 19:19:32 Requested path: /kestrel
+2024/12/16 19:19:32 Path /kestrel not in blacklist
+2024/12/16 19:19:32 Client IP: 75.127.5.46, Request Path: /kestrel
+2024/12/16 19:19:32 IP: 75.127.5.46, Country: US, City: Dallas
+[GIN] 2024/12/16 - 19:19:32 | 404 |   11.287212ms |     75.127.5.46 | GET      "/kestrel"
+2024/12/16 19:19:32 Checking IP: 75.127.5.46 for blacklist
+2024/12/16 19:19:32 Requested path: /
+2024/12/16 19:19:32 Path / not in blacklist
+2024/12/16 19:19:32 Client IP: 75.127.5.46, Request Path: /
+2024/12/16 19:19:32 IP: 75.127.5.46, Country: US, City: Dallas
+[GIN] 2024/12/16 - 19:19:32 | 200 |   12.047715ms |     75.127.5.46 | GET      "/"
+2024/12/16 19:21:15 Checking IP: 206.189.139.87 for blacklist
+2024/12/16 19:21:15 Requested path: /
+2024/12/16 19:21:15 Path / not in blacklist
+2024/12/16 19:21:15 Client IP: 206.189.139.87, Request Path: /
+2024/12/16 19:21:15 IP: 206.189.139.87, Country: IN, City: Bengaluru
+2024/12/16 19:21:15 Rejected country: IN
+[GIN] 2024/12/16 - 19:21:15 | 403 |   13.478418ms |  206.189.139.87 | GET      "/"
+2024/12/16 19:23:43 Checking IP: 121.5.231.252 for blacklist
+2024/12/16 19:23:43 Requested path: /
+2024/12/16 19:23:43 Path / not in blacklist
+2024/12/16 19:23:43 Client IP: 121.5.231.252, Request Path: /
+2024/12/16 19:23:43 IP: 121.5.231.252, Country: CN, City: 
+2024/12/16 19:23:43 Rejected country: CN
+[GIN] 2024/12/16 - 19:23:43 | 403 |   12.144587ms |   121.5.231.252 | GET      "/"
+2024/12/16 19:26:15 Checking IP: 121.5.231.252 for blacklist
+2024/12/16 19:26:15 Requested path: /
+2024/12/16 19:26:15 Path / not in blacklist
+2024/12/16 19:26:15 Client IP: 121.5.231.252, Request Path: /
+2024/12/16 19:26:15 IP: 121.5.231.252, Country: CN, City: 
+2024/12/16 19:26:15 Rejected country: CN
+[GIN] 2024/12/16 - 19:26:15 | 403 |   13.569842ms |   121.5.231.252 | GET      "/"
+2024/12/17 00:30:17 Checking IP: 3.142.135.214 for blacklist
+2024/12/17 00:30:17 Requested path: /
+2024/12/17 00:30:17 Path / not in blacklist
+2024/12/17 00:30:17 Client IP: 3.142.135.214, Request Path: /
+2024/12/17 00:30:17 IP: 3.142.135.214, Country: US, City: Columbus
+[GIN] 2024/12/17 - 00:30:17 | 200 |   13.544277ms |   3.142.135.214 | GET      "/"
+2024/12/17 00:30:17 Checking IP: 3.142.135.214 for blacklist
+2024/12/17 00:30:17 Requested path: /
+2024/12/17 00:30:17 Path / not in blacklist
+2024/12/17 00:30:17 Client IP: 3.142.135.214, Request Path: /
+2024/12/17 00:30:17 IP: 3.142.135.214, Country: US, City: Columbus
+[GIN] 2024/12/17 - 00:30:17 | 200 |    10.43822ms |   3.142.135.214 | GET      "/"
+2024/12/17 00:30:17 Checking IP: 3.142.135.214 for blacklist
+2024/12/17 00:30:17 Requested path: /public/css/style.css
+2024/12/17 00:30:17 Path /public/css/style.css not in blacklist
+2024/12/17 00:30:17 Client IP: 3.142.135.214, Request Path: /public/css/style.css
+2024/12/17 00:30:17 IP: 3.142.135.214, Country: US, City: Columbus
+[GIN] 2024/12/17 - 00:30:17 | 200 |    3.818091ms |   3.142.135.214 | GET      "/public/css/style.css"
+2024/12/17 00:30:18 Checking IP: 3.142.135.214 for blacklist
+2024/12/17 00:30:18 Requested path: /public/js/index.js
+2024/12/17 00:30:18 Path /public/js/index.js not in blacklist
+2024/12/17 00:30:18 Client IP: 3.142.135.214, Request Path: /public/js/index.js
+2024/12/17 00:30:18 IP: 3.142.135.214, Country: US, City: Columbus
+[GIN] 2024/12/17 - 00:30:18 | 200 |    3.911539ms |   3.142.135.214 | GET      "/public/js/index.js"
+2024/12/17 00:30:18 Checking IP: 3.142.135.214 for blacklist
+2024/12/17 00:30:18 Checking IP: 3.142.135.214 for blacklist
+2024/12/17 00:30:18 Requested path: /public/json/resume.json
+2024/12/17 00:30:18 Path /public/json/resume.json not in blacklist
+2024/12/17 00:30:18 Client IP: 3.142.135.214, Request Path: /public/json/resume.json
+2024/12/17 00:30:18 IP: 3.142.135.214, Country: US, City: Columbus
+2024/12/17 00:30:18 Requested path: /public/json/portfolio.json
+2024/12/17 00:30:18 Path /public/json/portfolio.json not in blacklist
+2024/12/17 00:30:18 Client IP: 3.142.135.214, Request Path: /public/json/portfolio.json
+2024/12/17 00:30:18 IP: 3.142.135.214, Country: US, City: Columbus
+[GIN] 2024/12/17 - 00:30:18 | 200 |   13.193394ms |   3.142.135.214 | GET      "/public/json/resume.json"
+[GIN] 2024/12/17 - 00:30:18 | 200 |   13.736062ms |   3.142.135.214 | GET      "/public/json/portfolio.json"
+2024/12/17 00:30:18 Checking IP: 3.142.135.214 for blacklist
+2024/12/17 00:30:18 Checking IP: 3.142.135.214 for blacklist
+2024/12/17 00:30:18 Requested path: /public/json/contacts.json
+2024/12/17 00:30:18 Path /public/json/contacts.json not in blacklist
+2024/12/17 00:30:18 Client IP: 3.142.135.214, Request Path: /public/json/contacts.json
+2024/12/17 00:30:18 IP: 3.142.135.214, Country: US, City: Columbus
+2024/12/17 00:30:18 Requested path: /public/json/about.json
+2024/12/17 00:30:18 Path /public/json/about.json not in blacklist
+2024/12/17 00:30:18 Client IP: 3.142.135.214, Request Path: /public/json/about.json
+2024/12/17 00:30:18 IP: 3.142.135.214, Country: US, City: Columbus
+[GIN] 2024/12/17 - 00:30:18 | 200 |    4.224498ms |   3.142.135.214 | GET      "/public/json/contacts.json"
+[GIN] 2024/12/17 - 00:30:18 | 200 |    5.283853ms |   3.142.135.214 | GET      "/public/json/about.json"
+2024/12/17 00:30:19 Checking IP: 3.142.135.214 for blacklist
+2024/12/17 00:30:19 Requested path: /
+2024/12/17 00:30:19 Path / not in blacklist
+2024/12/17 00:30:19 Client IP: 3.142.135.214, Request Path: /
+2024/12/17 00:30:19 IP: 3.142.135.214, Country: US, City: Columbus
+[GIN] 2024/12/17 - 00:30:19 | 200 |   11.048844ms |   3.142.135.214 | GET      "/"
+2024/12/17 07:44:37 Checking IP: 206.189.139.87 for blacklist
+2024/12/17 07:44:37 Requested path: /
+2024/12/17 07:44:37 Path / not in blacklist
+2024/12/17 07:44:37 Client IP: 206.189.139.87, Request Path: /
+2024/12/17 07:44:37 IP: 206.189.139.87, Country: IN, City: Bengaluru
+2024/12/17 07:44:37 Rejected country: IN
+[GIN] 2024/12/17 - 07:44:37 | 403 |   13.433599ms |  206.189.139.87 | GET      "/"
+2024/12/17 07:44:42 Checking IP: 206.189.139.87 for blacklist
+2024/12/17 07:44:42 Requested path: /
+2024/12/17 07:44:42 Path / not in blacklist
+2024/12/17 07:44:42 Client IP: 206.189.139.87, Request Path: /
+2024/12/17 07:44:42 IP: 206.189.139.87, Country: IN, City: Bengaluru
+2024/12/17 07:44:42 Rejected country: IN
+[GIN] 2024/12/17 - 07:44:42 | 403 |   12.982004ms |  206.189.139.87 | GET      "/"
+2024/12/17 08:25:09 Checking IP: 98.142.254.237 for blacklist
+2024/12/17 08:25:09 Requested path: /
+2024/12/17 08:25:09 Path / not in blacklist
+2024/12/17 08:25:09 Client IP: 98.142.254.237, Request Path: /
+2024/12/17 08:25:09 IP: 98.142.254.237, Country: BE, City: 
+[GIN] 2024/12/17 - 08:25:09 | 200 |   13.562221ms |  98.142.254.237 | GET      "/"
+2024/12/17 12:08:46 Checking IP: 43.135.144.126 for blacklist
+2024/12/17 12:08:46 Requested path: /
+2024/12/17 12:08:46 Path / not in blacklist
+2024/12/17 12:08:46 Client IP: 43.135.144.126, Request Path: /
+2024/12/17 12:08:46 IP: 43.135.144.126, Country: US, City: Santa Clara
+[GIN] 2024/12/17 - 12:08:46 | 200 |   12.484571ms |  43.135.144.126 | GET      "/"
+2024/12/17 12:27:41 Checking IP: 43.157.22.57 for blacklist
+2024/12/17 12:27:41 Requested path: /kestrel
+2024/12/17 12:27:41 Path /kestrel not in blacklist
+2024/12/17 12:27:41 Client IP: 43.157.22.57, Request Path: /kestrel
+2024/12/17 12:27:41 IP: 43.157.22.57, Country: DE, City: Frankfurt am Main
+[GIN] 2024/12/17 - 12:27:41 | 404 |   13.955851ms |    43.157.22.57 | GET      "/kestrel"
+2024/12/17 13:16:22 Checking IP: 3.82.18.114 for blacklist
+2024/12/17 13:16:22 Requested path: /
+2024/12/17 13:16:22 Path / not in blacklist
+2024/12/17 13:16:22 Client IP: 3.82.18.114, Request Path: /
+2024/12/17 13:16:22 IP: 3.82.18.114, Country: US, City: Ashburn
+[GIN] 2024/12/17 - 13:16:22 | 200 |   15.492669ms |     3.82.18.114 | GET      "/"
+2024/12/17 13:16:22 Checking IP: 3.82.18.114 for blacklist
+2024/12/17 13:16:22 Checking IP: 3.82.18.114 for blacklist
+2024/12/17 13:16:22 Requested path: /public/js/index.js
+2024/12/17 13:16:22 Path /public/js/index.js not in blacklist
+2024/12/17 13:16:22 Client IP: 3.82.18.114, Request Path: /public/js/index.js
+2024/12/17 13:16:22 IP: 3.82.18.114, Country: US, City: Ashburn
+2024/12/17 13:16:22 Requested path: /public/css/style.css
+2024/12/17 13:16:22 Path /public/css/style.css not in blacklist
+2024/12/17 13:16:22 Client IP: 3.82.18.114, Request Path: /public/css/style.css
+2024/12/17 13:16:22 IP: 3.82.18.114, Country: US, City: Ashburn
+[GIN] 2024/12/17 - 13:16:22 | 200 |    4.584748ms |     3.82.18.114 | GET      "/public/css/style.css"
+[GIN] 2024/12/17 - 13:16:22 | 200 |    5.192998ms |     3.82.18.114 | GET      "/public/js/index.js"
+2024/12/17 13:16:28 Checking IP: 3.82.18.114 for blacklist
+2024/12/17 13:16:28 Requested path: /favicon.ico
+2024/12/17 13:16:28 Path /favicon.ico not in blacklist
+2024/12/17 13:16:28 Client IP: 3.82.18.114, Request Path: /favicon.ico
+2024/12/17 13:16:28 IP: 3.82.18.114, Country: US, City: Ashburn
+[GIN] 2024/12/17 - 13:16:28 | 404 |   13.631741ms |     3.82.18.114 | GET      "/favicon.ico"
+2024/12/17 13:16:29 Checking IP: 3.82.18.114 for blacklist
+2024/12/17 13:16:29 Checking IP: 3.82.18.114 for blacklist
+2024/12/17 13:16:29 Requested path: /public/json/resume.json
+2024/12/17 13:16:29 Path /public/json/resume.json not in blacklist
+2024/12/17 13:16:29 Client IP: 3.82.18.114, Request Path: /public/json/resume.json
+2024/12/17 13:16:29 IP: 3.82.18.114, Country: US, City: Ashburn
+2024/12/17 13:16:29 Requested path: /public/json/portfolio.json
+2024/12/17 13:16:29 Path /public/json/portfolio.json not in blacklist
+2024/12/17 13:16:29 Client IP: 3.82.18.114, Request Path: /public/json/portfolio.json
+2024/12/17 13:16:29 IP: 3.82.18.114, Country: US, City: Ashburn
+[GIN] 2024/12/17 - 13:16:29 | 200 |    4.743917ms |     3.82.18.114 | GET      "/public/json/resume.json"
+[GIN] 2024/12/17 - 13:16:29 | 200 |    4.828984ms |     3.82.18.114 | GET      "/public/json/portfolio.json"
+2024/12/17 13:16:29 Checking IP: 3.82.18.114 for blacklist
+2024/12/17 13:16:29 Checking IP: 3.82.18.114 for blacklist
+2024/12/17 13:16:29 Requested path: /public/json/about.json
+2024/12/17 13:16:29 Requested path: /public/json/contacts.json
+2024/12/17 13:16:29 Path /public/json/contacts.json not in blacklist
+2024/12/17 13:16:29 Client IP: 3.82.18.114, Request Path: /public/json/contacts.json
+2024/12/17 13:16:29 Path /public/json/about.json not in blacklist
+2024/12/17 13:16:29 Client IP: 3.82.18.114, Request Path: /public/json/about.json
+2024/12/17 13:16:29 IP: 3.82.18.114, Country: US, City: Ashburn
+2024/12/17 13:16:29 IP: 3.82.18.114, Country: US, City: Ashburn
+[GIN] 2024/12/17 - 13:16:29 | 200 |    4.438709ms |     3.82.18.114 | GET      "/public/json/contacts.json"
+[GIN] 2024/12/17 - 13:16:29 | 200 |    5.207735ms |     3.82.18.114 | GET      "/public/json/about.json"
+2024/12/17 13:16:33 Checking IP: 3.82.18.114 for blacklist
+2024/12/17 13:16:33 Requested path: /favicon.ico
+2024/12/17 13:16:33 Path /favicon.ico not in blacklist
+2024/12/17 13:16:33 Client IP: 3.82.18.114, Request Path: /favicon.ico
+2024/12/17 13:16:33 IP: 3.82.18.114, Country: US, City: Ashburn
+[GIN] 2024/12/17 - 13:16:33 | 404 |     6.95943ms |     3.82.18.114 | GET      "/favicon.ico"
+2024/12/17 14:04:51 Checking IP: 102.129.153.139 for blacklist
+2024/12/17 14:04:51 Requested path: /
+2024/12/17 14:04:51 Path / not in blacklist
+2024/12/17 14:04:51 Client IP: 102.129.153.139, Request Path: /
+2024/12/17 14:04:51 IP: 102.129.153.139, Country: US, City: Miami
+[GIN] 2024/12/17 - 14:04:51 | 200 |   14.364669ms | 102.129.153.139 | GET      "/"
+2024/12/17 14:05:13 Checking IP: 217.138.194.124 for blacklist
+2024/12/17 14:05:13 Requested path: /favicon.ico
+2024/12/17 14:05:13 Path /favicon.ico not in blacklist
+2024/12/17 14:05:13 Client IP: 217.138.194.124, Request Path: /favicon.ico
+2024/12/17 14:05:13 IP: 217.138.194.124, Country: DE, City: Frankfurt am Main
+[GIN] 2024/12/17 - 14:05:13 | 404 |    12.32662ms | 217.138.194.124 | GET      "/favicon.ico"
+2024/12/17 14:05:21 Checking IP: 2a03:b0c0:3:d0::dd1:7001 for blacklist
+2024/12/17 14:05:21 Requested path: /
+2024/12/17 14:05:21 Path / not in blacklist
+2024/12/17 14:05:21 Client IP: 2a03:b0c0:3:d0::dd1:7001, Request Path: /
+2024/12/17 14:05:21 IP: 2a03:b0c0:3:d0::dd1:7001, Country: DE, City: Frankfurt am Main
+[GIN] 2024/12/17 - 14:05:21 | 200 |   12.400583ms | 2a03:b0c0:3:d0::dd1:7001 | GET      "/"
+2024/12/17 14:05:21 Checking IP: 66.115.182.137 for blacklist
+2024/12/17 14:05:21 Requested path: /
+2024/12/17 14:05:21 Path / not in blacklist
+2024/12/17 14:05:21 Client IP: 66.115.182.137, Request Path: /
+2024/12/17 14:05:21 IP: 66.115.182.137, Country: US, City: Orlando
+[GIN] 2024/12/17 - 14:05:21 | 200 |   12.215991ms |  66.115.182.137 | GET      "/"
+2024/12/17 14:05:21 Checking IP: 2604:a880:4:1d0::32f:0 for blacklist
+2024/12/17 14:05:21 Requested path: /
+2024/12/17 14:05:21 Path / not in blacklist
+2024/12/17 14:05:21 Client IP: 2604:a880:4:1d0::32f:0, Request Path: /
+2024/12/17 14:05:21 IP: 2604:a880:4:1d0::32f:0, Country: US, City: Santa Clara
+[GIN] 2024/12/17 - 14:05:21 | 200 |   11.671017ms | 2604:a880:4:1d0::32f:0 | GET      "/"
+2024/12/17 14:05:22 Checking IP: 2a03:b0c0:3:d0::dd1:7001 for blacklist
+2024/12/17 14:05:22 Requested path: /favicon.ico
+2024/12/17 14:05:22 Path /favicon.ico not in blacklist
+2024/12/17 14:05:22 Client IP: 2a03:b0c0:3:d0::dd1:7001, Request Path: /favicon.ico
+2024/12/17 14:05:22 IP: 2a03:b0c0:3:d0::dd1:7001, Country: DE, City: Frankfurt am Main
+[GIN] 2024/12/17 - 14:05:22 | 404 |   12.347573ms | 2a03:b0c0:3:d0::dd1:7001 | GET      "/favicon.ico"
+2024/12/17 14:37:24 Checking IP: 45.134.142.217 for blacklist
+2024/12/17 14:37:24 Requested path: /
+2024/12/17 14:37:24 Path / not in blacklist
+2024/12/17 14:37:24 Client IP: 45.134.142.217, Request Path: /
+2024/12/17 14:37:24 IP: 45.134.142.217, Country: US, City: Miami
+[GIN] 2024/12/17 - 14:37:24 | 200 |   13.752589ms |  45.134.142.217 | GET      "/"
+2024/12/17 14:37:24 Checking IP: 45.134.142.217 for blacklist
+2024/12/17 14:37:24 Requested path: /public/css/style.css
+2024/12/17 14:37:24 Path /public/css/style.css not in blacklist
+2024/12/17 14:37:24 Client IP: 45.134.142.217, Request Path: /public/css/style.css
+2024/12/17 14:37:24 IP: 45.134.142.217, Country: US, City: Miami
+[GIN] 2024/12/17 - 14:37:24 | 200 |   11.136265ms |  45.134.142.217 | GET      "/public/css/style.css"
+2024/12/17 14:37:24 Checking IP: 45.134.142.217 for blacklist
+2024/12/17 14:37:24 Requested path: /public/js/index.js
+2024/12/17 14:37:24 Path /public/js/index.js not in blacklist
+2024/12/17 14:37:24 Client IP: 45.134.142.217, Request Path: /public/js/index.js
+2024/12/17 14:37:24 IP: 45.134.142.217, Country: US, City: Miami
+[GIN] 2024/12/17 - 14:37:24 | 200 |    4.137468ms |  45.134.142.217 | GET      "/public/js/index.js"
+2024/12/17 14:37:25 Checking IP: 45.134.142.217 for blacklist
+2024/12/17 14:37:25 Requested path: /favicon.ico
+2024/12/17 14:37:25 Path /favicon.ico not in blacklist
+2024/12/17 14:37:25 Client IP: 45.134.142.217, Request Path: /favicon.ico
+2024/12/17 14:37:25 IP: 45.134.142.217, Country: US, City: Miami
+[GIN] 2024/12/17 - 14:37:25 | 404 |   13.182265ms |  45.134.142.217 | GET      "/favicon.ico"
+2024/12/17 14:37:27 Checking IP: 45.134.142.217 for blacklist
+2024/12/17 14:37:27 Checking IP: 45.134.142.217 for blacklist
+2024/12/17 14:37:27 Requested path: /public/json/portfolio.json
+2024/12/17 14:37:27 Path /public/json/portfolio.json not in blacklist
+2024/12/17 14:37:27 Client IP: 45.134.142.217, Request Path: /public/json/portfolio.json
+2024/12/17 14:37:27 IP: 45.134.142.217, Country: US, City: Miami
+2024/12/17 14:37:27 Requested path: /public/json/resume.json
+2024/12/17 14:37:27 Path /public/json/resume.json not in blacklist
+2024/12/17 14:37:27 Client IP: 45.134.142.217, Request Path: /public/json/resume.json
+2024/12/17 14:37:27 IP: 45.134.142.217, Country: US, City: Miami
+[GIN] 2024/12/17 - 14:37:27 | 200 |   12.405211ms |  45.134.142.217 | GET      "/public/json/portfolio.json"
+[GIN] 2024/12/17 - 14:37:27 | 200 |   13.555776ms |  45.134.142.217 | GET      "/public/json/resume.json"
+2024/12/17 14:37:27 Checking IP: 45.134.142.217 for blacklist
+2024/12/17 14:37:27 Requested path: /public/json/about.json
+2024/12/17 14:37:27 Path /public/json/about.json not in blacklist
+2024/12/17 14:37:27 Client IP: 45.134.142.217, Request Path: /public/json/about.json
+2024/12/17 14:37:27 IP: 45.134.142.217, Country: US, City: Miami
+[GIN] 2024/12/17 - 14:37:27 | 200 |    3.839456ms |  45.134.142.217 | GET      "/public/json/about.json"
+2024/12/17 14:37:27 Checking IP: 45.134.142.217 for blacklist
+2024/12/17 14:37:27 Requested path: /public/json/contacts.json
+2024/12/17 14:37:27 Path /public/json/contacts.json not in blacklist
+2024/12/17 14:37:27 Client IP: 45.134.142.217, Request Path: /public/json/contacts.json
+2024/12/17 14:37:27 IP: 45.134.142.217, Country: US, City: Miami
+[GIN] 2024/12/17 - 14:37:27 | 200 |    4.105761ms |  45.134.142.217 | GET      "/public/json/contacts.json"
+2024/12/18 02:38:28 Checking IP: 94.103.125.226 for blacklist
+2024/12/18 02:38:28 Requested path: /
+2024/12/18 02:38:28 Path / not in blacklist
+2024/12/18 02:38:28 Client IP: 94.103.125.226, Request Path: /
+2024/12/18 02:38:28 IP: 94.103.125.226, Country: BG, City: 
+[GIN] 2024/12/18 - 02:38:28 | 200 |   13.207494ms |  94.103.125.226 | GET      "/"
+2024/12/18 02:38:28 Checking IP: 94.103.125.226 for blacklist
+2024/12/18 02:38:28 Requested path: /wordpress
+2024/12/18 02:38:28 Path /wordpress not in blacklist
+2024/12/18 02:38:28 Client IP: 94.103.125.226, Request Path: /wordpress
+2024/12/18 02:38:28 IP: 94.103.125.226, Country: BG, City: 
+[GIN] 2024/12/18 - 02:38:28 | 404 |    13.11258ms |  94.103.125.226 | GET      "/wordpress"
+2024/12/18 02:38:29 Checking IP: 94.103.125.226 for blacklist
+2024/12/18 02:38:29 Requested path: /wp
+2024/12/18 02:38:29 Path /wp not in blacklist
+2024/12/18 02:38:29 Client IP: 94.103.125.226, Request Path: /wp
+2024/12/18 02:38:29 IP: 94.103.125.226, Country: BG, City: 
+[GIN] 2024/12/18 - 02:38:29 | 404 |   13.506416ms |  94.103.125.226 | GET      "/wp"
+2024/12/18 02:38:29 Checking IP: 94.103.125.226 for blacklist
+2024/12/18 02:38:29 Requested path: /wp-admin/setup-config.php
+2024/12/18 02:38:29 Sensitive file access attempt /wp-admin/setup-config.php by IP: 94.103.125.226
+2024/12/18 02:38:29 IP 94.103.125.226 added to blacklist
+2024/12/18 02:38:29 Database `user_logs` ensured
+2024/12/18 02:38:29 Connected to `user_logs` database successfully
+2024/12/18 02:38:29 Table `accessed_parts` ensured
+2024/12/18 02:38:29 Table `user_info` ensured
+[GIN] 2024/12/18 - 02:38:29 | 403 |   15.466025ms |  94.103.125.226 | GET      "/wp-admin/setup-config.php"
+2024/12/18 02:38:30 Checking IP: 94.103.125.226 for blacklist
+2024/12/18 02:38:30 Blocked blacklisted IP: 94.103.125.226
+[GIN] 2024/12/18 - 02:38:30 | 403 |    1.181926ms |  94.103.125.226 | GET      "/wp-admin/install.php"
+2024/12/18 02:38:30 Checking IP: 94.103.125.226 for blacklist
+2024/12/18 02:38:30 Blocked blacklisted IP: 94.103.125.226
+[GIN] 2024/12/18 - 02:38:30 | 403 |    1.035329ms |  94.103.125.226 | GET      "/blog"
+2024/12/18 02:38:31 Checking IP: 94.103.125.226 for blacklist
+2024/12/18 02:38:31 Blocked blacklisted IP: 94.103.125.226
+[GIN] 2024/12/18 - 02:38:31 | 403 |    1.177806ms |  94.103.125.226 | GET      "/new"
+2024/12/18 02:38:31 Checking IP: 94.103.125.226 for blacklist
+2024/12/18 02:38:31 Blocked blacklisted IP: 94.103.125.226
+[GIN] 2024/12/18 - 02:38:31 | 403 |    1.143792ms |  94.103.125.226 | GET      "/old"
+2024/12/18 02:38:31 Checking IP: 94.103.125.226 for blacklist
+2024/12/18 02:38:31 Blocked blacklisted IP: 94.103.125.226
+[GIN] 2024/12/18 - 02:38:31 | 403 |    1.109989ms |  94.103.125.226 | GET      "/newsite"
+2024/12/18 02:38:31 Checking IP: 94.103.125.226 for blacklist
+2024/12/18 02:38:31 Blocked blacklisted IP: 94.103.125.226
+[GIN] 2024/12/18 - 02:38:31 | 403 |       986.3µs |  94.103.125.226 | GET      "/test"
+2024/12/18 02:38:31 Checking IP: 94.103.125.226 for blacklist
+2024/12/18 02:38:31 Blocked blacklisted IP: 94.103.125.226
+[GIN] 2024/12/18 - 02:38:31 | 403 |    1.027367ms |  94.103.125.226 | GET      "/core"
+2024/12/18 02:38:32 Checking IP: 94.103.125.226 for blacklist
+2024/12/18 02:38:32 Blocked blacklisted IP: 94.103.125.226
+[GIN] 2024/12/18 - 02:38:32 | 403 |     974.358µs |  94.103.125.226 | GET      "/testing"
+2024/12/18 02:38:32 Checking IP: 94.103.125.226 for blacklist
+2024/12/18 02:38:32 Blocked blacklisted IP: 94.103.125.226
+[GIN] 2024/12/18 - 02:38:32 | 403 |    1.083449ms |  94.103.125.226 | GET      "/home"
+2024/12/18 05:43:46 Checking IP: 43.155.169.133 for blacklist
+2024/12/18 05:43:46 Requested path: /
+2024/12/18 05:43:46 Path / not in blacklist
+2024/12/18 05:43:46 Client IP: 43.155.169.133, Request Path: /
+2024/12/18 05:43:46 IP: 43.155.169.133, Country: KR, City: Seoul
+2024/12/18 05:43:46 Rejected country: KR
+[GIN] 2024/12/18 - 05:43:46 | 403 |    14.93217ms |  43.155.169.133 | GET      "/"
+2024/12/18 06:55:54 Checking IP: 206.189.90.51 for blacklist
+2024/12/18 06:55:54 Requested path: /wp-includes/id3/license.txt/feed/
+2024/12/18 06:55:54 Path /wp-includes/id3/license.txt/feed/ not in blacklist
+2024/12/18 06:55:54 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/feed/
+2024/12/18 06:55:54 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/18 06:55:54 Rejected country: SG
+[GIN] 2024/12/18 - 06:55:54 | 403 |   13.364084ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/feed/"
+2024/12/18 06:55:55 Checking IP: 206.189.90.51 for blacklist
+2024/12/18 06:55:55 Requested path: /wp-includes/id3/license.txt/blog/wp-includes/wlwmanifest.xml
+2024/12/18 06:55:55 Path /wp-includes/id3/license.txt/blog/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 06:55:55 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/blog/wp-includes/wlwmanifest.xml
+2024/12/18 06:55:55 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/18 06:55:55 Rejected country: SG
+[GIN] 2024/12/18 - 06:55:55 | 403 |   10.029785ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/blog/wp-includes/wlwmanifest.xml"
+2024/12/18 06:55:56 Checking IP: 206.189.90.51 for blacklist
+2024/12/18 06:55:56 Requested path: /wp-includes/id3/license.txt/wordpress/wp-includes/wlwmanifest.xml
+2024/12/18 06:55:56 Path /wp-includes/id3/license.txt/wordpress/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 06:55:56 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/wordpress/wp-includes/wlwmanifest.xml
+2024/12/18 06:55:56 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/18 06:55:56 Rejected country: SG
+[GIN] 2024/12/18 - 06:55:56 | 403 |   12.330501ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/wordpress/wp-includes/wlwmanifest.xml"
+2024/12/18 06:55:57 Checking IP: 206.189.90.51 for blacklist
+2024/12/18 06:55:57 Requested path: /wp-includes/id3/license.txt/2020/wp-includes/wlwmanifest.xml
+2024/12/18 06:55:57 Path /wp-includes/id3/license.txt/2020/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 06:55:57 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/2020/wp-includes/wlwmanifest.xml
+2024/12/18 06:55:57 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/18 06:55:57 Rejected country: SG
+[GIN] 2024/12/18 - 06:55:57 | 403 |   12.512717ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/2020/wp-includes/wlwmanifest.xml"
+2024/12/18 06:55:58 Checking IP: 206.189.90.51 for blacklist
+2024/12/18 06:55:58 Requested path: /wp-includes/id3/license.txt/2021/wp-includes/wlwmanifest.xml
+2024/12/18 06:55:58 Path /wp-includes/id3/license.txt/2021/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 06:55:58 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/2021/wp-includes/wlwmanifest.xml
+2024/12/18 06:55:58 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/18 06:55:58 Rejected country: SG
+[GIN] 2024/12/18 - 06:55:58 | 403 |   12.702336ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/2021/wp-includes/wlwmanifest.xml"
+2024/12/18 06:56:00 Checking IP: 206.189.90.51 for blacklist
+2024/12/18 06:56:00 Requested path: /wp-includes/id3/license.txt/wp1/wp-includes/wlwmanifest.xml
+2024/12/18 06:56:00 Path /wp-includes/id3/license.txt/wp1/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 06:56:00 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/wp1/wp-includes/wlwmanifest.xml
+2024/12/18 06:56:00 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/18 06:56:00 Rejected country: SG
+[GIN] 2024/12/18 - 06:56:00 | 403 |   12.394336ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/wp1/wp-includes/wlwmanifest.xml"
+2024/12/18 06:56:01 Checking IP: 206.189.90.51 for blacklist
+2024/12/18 06:56:01 Requested path: /wp-includes/id3/license.txt/site/wp-includes/wlwmanifest.xml
+2024/12/18 06:56:01 Path /wp-includes/id3/license.txt/site/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 06:56:01 Client IP: 206.189.90.51, Request Path: /wp-includes/id3/license.txt/site/wp-includes/wlwmanifest.xml
+2024/12/18 06:56:01 IP: 206.189.90.51, Country: SG, City: Singapore
+2024/12/18 06:56:01 Rejected country: SG
+[GIN] 2024/12/18 - 06:56:01 | 403 |   12.186138ms |   206.189.90.51 | GET      "/wp-includes/id3/license.txt/site/wp-includes/wlwmanifest.xml"
+2024/12/18 09:25:05 Checking IP: 104.236.42.151 for blacklist
+2024/12/18 09:25:05 Requested path: //wp-includes/wlwmanifest.xml
+2024/12/18 09:25:05 Path //wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 09:25:05 Client IP: 104.236.42.151, Request Path: //wp-includes/wlwmanifest.xml
+2024/12/18 09:25:05 IP: 104.236.42.151, Country: US, City: Clifton
+[GIN] 2024/12/18 - 09:25:05 | 404 |   13.400281ms |  104.236.42.151 | GET      "//wp-includes/wlwmanifest.xml"
+2024/12/18 09:25:05 Checking IP: 104.236.42.151 for blacklist
+2024/12/18 09:25:05 Requested path: /
+2024/12/18 09:25:05 Path / not in blacklist
+2024/12/18 09:25:05 Client IP: 104.236.42.151, Request Path: /
+2024/12/18 09:25:05 IP: 104.236.42.151, Country: US, City: Clifton
+[GIN] 2024/12/18 - 09:25:05 | 200 |    6.455311ms |  104.236.42.151 | GET      "/"
+2024/12/18 09:25:05 Checking IP: 104.236.42.151 for blacklist
+2024/12/18 09:25:05 Requested path: //web/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:05 Path //web/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 09:25:05 Client IP: 104.236.42.151, Request Path: //web/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:05 IP: 104.236.42.151, Country: US, City: Clifton
+[GIN] 2024/12/18 - 09:25:05 | 404 |   10.846946ms |  104.236.42.151 | GET      "//web/wp-includes/wlwmanifest.xml"
+2024/12/18 09:25:05 Checking IP: 104.236.42.151 for blacklist
+2024/12/18 09:25:05 Requested path: //website/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:05 Path //website/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 09:25:05 Client IP: 104.236.42.151, Request Path: //website/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:05 IP: 104.236.42.151, Country: US, City: Clifton
+[GIN] 2024/12/18 - 09:25:05 | 404 |    4.267875ms |  104.236.42.151 | GET      "//website/wp-includes/wlwmanifest.xml"
+2024/12/18 09:25:05 Checking IP: 104.236.42.151 for blacklist
+2024/12/18 09:25:05 Requested path: //news/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:05 Path //news/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 09:25:05 Client IP: 104.236.42.151, Request Path: //news/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:05 IP: 104.236.42.151, Country: US, City: Clifton
+[GIN] 2024/12/18 - 09:25:05 | 404 |    12.89407ms |  104.236.42.151 | GET      "//news/wp-includes/wlwmanifest.xml"
+2024/12/18 09:25:05 Checking IP: 104.236.42.151 for blacklist
+2024/12/18 09:25:05 Requested path: //2019/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:05 Path //2019/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 09:25:05 Client IP: 104.236.42.151, Request Path: //2019/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:05 IP: 104.236.42.151, Country: US, City: Clifton
+[GIN] 2024/12/18 - 09:25:05 | 404 |    4.202643ms |  104.236.42.151 | GET      "//2019/wp-includes/wlwmanifest.xml"
+2024/12/18 09:25:05 Checking IP: 104.236.42.151 for blacklist
+2024/12/18 09:25:05 Requested path: //wp1/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:05 Path //wp1/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 09:25:05 Client IP: 104.236.42.151, Request Path: //wp1/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:05 IP: 104.236.42.151, Country: US, City: Clifton
+[GIN] 2024/12/18 - 09:25:05 | 404 |    4.085309ms |  104.236.42.151 | GET      "//wp1/wp-includes/wlwmanifest.xml"
+2024/12/18 09:25:06 Checking IP: 104.236.42.151 for blacklist
+2024/12/18 09:25:06 Requested path: //wp2/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:06 Path //wp2/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 09:25:06 Client IP: 104.236.42.151, Request Path: //wp2/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:06 IP: 104.236.42.151, Country: US, City: Clifton
+[GIN] 2024/12/18 - 09:25:06 | 404 |    4.686156ms |  104.236.42.151 | GET      "//wp2/wp-includes/wlwmanifest.xml"
+2024/12/18 09:25:06 Checking IP: 104.236.42.151 for blacklist
+2024/12/18 09:25:06 Requested path: //cms/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:06 Path //cms/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/18 09:25:06 Client IP: 104.236.42.151, Request Path: //cms/wp-includes/wlwmanifest.xml
+2024/12/18 09:25:06 IP: 104.236.42.151, Country: US, City: Clifton
+[GIN] 2024/12/18 - 09:25:06 | 404 |   10.705935ms |  104.236.42.151 | GET      "//cms/wp-includes/wlwmanifest.xml"
+2024/12/18 11:39:21 Checking IP: 45.148.10.235 for blacklist
+2024/12/18 11:39:21 Requested path: /
+2024/12/18 11:39:21 Path / not in blacklist
+2024/12/18 11:39:21 Client IP: 45.148.10.235, Request Path: /
+2024/12/18 11:39:21 IP: 45.148.10.235, Country: NL, City: Amsterdam
+[GIN] 2024/12/18 - 11:39:21 | 200 |   13.043329ms |   45.148.10.235 | GET      "/"
+2024/12/18 11:39:34 Checking IP: 45.148.10.235 for blacklist
+2024/12/18 11:39:34 Requested path: //www.google.com/recaptcha/enterprise.js
+2024/12/18 11:39:34 Path //www.google.com/recaptcha/enterprise.js not in blacklist
+2024/12/18 11:39:34 Client IP: 45.148.10.235, Request Path: //www.google.com/recaptcha/enterprise.js
+2024/12/18 11:39:34 IP: 45.148.10.235, Country: NL, City: Amsterdam
+[GIN] 2024/12/18 - 11:39:34 | 404 |   13.020491ms |   45.148.10.235 | GET      "//www.google.com/recaptcha/enterprise.js?render=6LcTWBMqAAAAAEtY30zw0JD5hRFsjAu0ViwE3FiX"
+2024/12/18 11:39:34 Checking IP: 45.148.10.235 for blacklist
+2024/12/18 11:39:34 Checking IP: 45.148.10.235 for blacklist
+2024/12/18 11:39:34 Requested path: //www.google.com/recaptcha/enterprise.js
+2024/12/18 11:39:34 Path //www.google.com/recaptcha/enterprise.js not in blacklist
+2024/12/18 11:39:34 Client IP: 45.148.10.235, Request Path: //www.google.com/recaptcha/enterprise.js
+2024/12/18 11:39:34 IP: 45.148.10.235, Country: NL, City: Amsterdam
+2024/12/18 11:39:34 Requested path: //ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+2024/12/18 11:39:34 Path //ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js not in blacklist
+2024/12/18 11:39:34 Client IP: 45.148.10.235, Request Path: //ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+2024/12/18 11:39:34 IP: 45.148.10.235, Country: NL, City: Amsterdam
+[GIN] 2024/12/18 - 11:39:34 | 404 |    5.734341ms |   45.148.10.235 | GET      "//www.google.com/recaptcha/enterprise.js"
+[GIN] 2024/12/18 - 11:39:34 | 404 |    6.979965ms |   45.148.10.235 | GET      "//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+2024/12/18 11:39:34 Checking IP: 45.148.10.235 for blacklist
+2024/12/18 11:39:34 Requested path: //maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js
+2024/12/18 11:39:34 Path //maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js not in blacklist
+2024/12/18 11:39:34 Client IP: 45.148.10.235, Request Path: //maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js
+2024/12/18 11:39:34 IP: 45.148.10.235, Country: NL, City: Amsterdam
+[GIN] 2024/12/18 - 11:39:34 | 404 |    5.216605ms |   45.148.10.235 | GET      "//maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+2024/12/18 11:39:34 Checking IP: 45.148.10.235 for blacklist
+2024/12/18 11:39:34 Requested path: /public/js/index.js
+2024/12/18 11:39:34 Path /public/js/index.js not in blacklist
+2024/12/18 11:39:34 Client IP: 45.148.10.235, Request Path: /public/js/index.js
+2024/12/18 11:39:34 IP: 45.148.10.235, Country: NL, City: Amsterdam
+[GIN] 2024/12/18 - 11:39:34 | 200 |    5.716391ms |   45.148.10.235 | GET      "/public/js/index.js"
+2024/12/18 12:07:40 Checking IP: 43.166.7.113 for blacklist
+2024/12/18 12:07:40 Requested path: /
+2024/12/18 12:07:40 Path / not in blacklist
+2024/12/18 12:07:40 Client IP: 43.166.7.113, Request Path: /
+2024/12/18 12:07:40 IP: 43.166.7.113, Country: SG, City: 
+2024/12/18 12:07:40 Rejected country: SG
+[GIN] 2024/12/18 - 12:07:40 | 403 |   14.149638ms |    43.166.7.113 | GET      "/"
+2024/12/18 16:42:50 Checking IP: 2602:80d:1004::3c for blacklist
+2024/12/18 16:42:50 Requested path: /
+2024/12/18 16:42:50 Path / not in blacklist
+2024/12/18 16:42:50 Client IP: 2602:80d:1004::3c, Request Path: /
+2024/12/18 16:42:50 IP: 2602:80d:1004::3c, Country: US, City: 
+[GIN] 2024/12/18 - 16:42:50 | 200 |    13.50846ms | 2602:80d:1004::3c | GET      "/"
+2024/12/18 16:42:51 Checking IP: 2602:80d:1004::3c for blacklist
+2024/12/18 16:42:51 Requested path: /favicon.ico
+2024/12/18 16:42:51 Path /favicon.ico not in blacklist
+2024/12/18 16:42:51 Client IP: 2602:80d:1004::3c, Request Path: /favicon.ico
+2024/12/18 16:42:51 IP: 2602:80d:1004::3c, Country: US, City: 
+[GIN] 2024/12/18 - 16:42:51 | 404 |   12.761995ms | 2602:80d:1004::3c | GET      "/favicon.ico"
+2024/12/18 20:52:48 Checking IP: 2602:80d:1002::17 for blacklist
+2024/12/18 20:52:48 Requested path: /
+2024/12/18 20:52:48 Path / not in blacklist
+2024/12/18 20:52:48 Client IP: 2602:80d:1002::17, Request Path: /
+2024/12/18 20:52:48 IP: 2602:80d:1002::17, Country: US, City: 
+[GIN] 2024/12/18 - 20:52:48 | 200 |   13.523901ms | 2602:80d:1002::17 | GET      "/"
+2024/12/18 20:52:49 Checking IP: 2602:80d:1002::17 for blacklist
+2024/12/18 20:52:49 Requested path: /favicon.ico
+2024/12/18 20:52:49 Path /favicon.ico not in blacklist
+2024/12/18 20:52:49 Client IP: 2602:80d:1002::17, Request Path: /favicon.ico
+2024/12/18 20:52:49 IP: 2602:80d:1002::17, Country: US, City: 
+[GIN] 2024/12/18 - 20:52:49 | 404 |   12.613935ms | 2602:80d:1002::17 | GET      "/favicon.ico"
+2024/12/18 22:33:16 Checking IP: 23.21.204.95 for blacklist
+2024/12/18 22:33:16 Requested path: /
+2024/12/18 22:33:16 Path / not in blacklist
+2024/12/18 22:33:16 Client IP: 23.21.204.95, Request Path: /
+2024/12/18 22:33:16 IP: 23.21.204.95, Country: US, City: Ashburn
+[GIN] 2024/12/18 - 22:33:16 | 200 |   13.260801ms |    23.21.204.95 | GET      "/"
+2024/12/18 22:34:06 Checking IP: 18.215.112.101 for blacklist
+2024/12/18 22:34:06 Requested path: /robots.txt
+2024/12/18 22:34:06 Path /robots.txt not in blacklist
+2024/12/18 22:34:06 Client IP: 18.215.112.101, Request Path: /robots.txt
+2024/12/18 22:34:06 IP: 18.215.112.101, Country: US, City: Ashburn
+2024/12/18 22:34:06 robots.txt requested
+[GIN] 2024/12/18 - 22:34:06 | 200 |   13.613221ms |  18.215.112.101 | GET      "/robots.txt"
+2024/12/19 02:48:35 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:48:35 Requested path: /
+2024/12/19 02:48:35 Path / not in blacklist
+2024/12/19 02:48:35 Client IP: 217.142.185.253, Request Path: /
+2024/12/19 02:48:35 IP: 217.142.185.253, Country: SG, City: Singapore
+2024/12/19 02:48:35 Rejected country: SG
+[GIN] 2024/12/19 - 02:48:35 | 403 |     13.8226ms | 217.142.185.253 | GET      "/"
+2024/12/19 02:48:35 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:48:35 Requested path: /phpinfo.php
+2024/12/19 02:48:35 Sensitive file access attempt /phpinfo.php by IP: 217.142.185.253
+2024/12/19 02:48:35 IP 217.142.185.253 added to blacklist
+2024/12/19 02:48:35 Database `user_logs` ensured
+2024/12/19 02:48:35 Connected to `user_logs` database successfully
+2024/12/19 02:48:35 Table `accessed_parts` ensured
+2024/12/19 02:48:35 Table `user_info` ensured
+[GIN] 2024/12/19 - 02:48:35 | 403 |   16.269705ms | 217.142.185.253 | GET      "/phpinfo.php"
+2024/12/19 02:48:36 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:48:36 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:48:36 | 403 |     857.863µs | 217.142.185.253 | GET      "/info.php"
+2024/12/19 02:48:43 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:48:43 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:48:43 | 403 |    1.027857ms | 217.142.185.253 | GET      "/phpinfo"
+2024/12/19 02:48:51 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:48:51 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:48:51 | 403 |     870.923µs | 217.142.185.253 | GET      "/php_info.php"
+2024/12/19 02:48:51 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:48:51 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:48:51 | 403 |      911.71µs | 217.142.185.253 | GET      "/test.php"
+2024/12/19 02:48:52 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:48:52 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:48:52 | 403 |    1.333203ms | 217.142.185.253 | GET      "/_profiler/phpinfo"
+2024/12/19 02:48:52 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:48:52 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:48:52 | 403 |    1.125704ms | 217.142.185.253 | GET      "/.env"
+2024/12/19 02:48:52 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:48:52 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:48:52 | 403 |     963.323µs | 217.142.185.253 | GET      "/config/.env"
+2024/12/19 02:48:54 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:48:54 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:48:54 | 403 |    1.010466ms | 217.142.185.253 | GET      "/.env.production"
+2024/12/19 02:48:54 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:48:54 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:48:54 | 403 |     979.317µs | 217.142.185.253 | GET      "/.env.local"
+2024/12/19 02:48:55 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:48:55 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:48:55 | 403 |     1.08799ms | 217.142.185.253 | GET      "/api/shared/config/config.env"
+2024/12/19 02:49:02 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:49:02 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:49:02 | 403 |    1.038752ms | 217.142.185.253 | GET      "/api/.env"
+2024/12/19 02:49:03 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:49:03 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:49:03 | 403 |     974.358µs | 217.142.185.253 | GET      "/"
+2024/12/19 02:49:06 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:49:06 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:49:06 | 403 |     939.717µs | 217.142.185.253 | GET      "/register/"
+2024/12/19 02:49:07 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:49:07 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:49:07 | 403 |    1.000409ms | 217.142.185.253 | GET      "/contact/"
+2024/12/19 02:49:07 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:49:07 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:49:07 | 403 |    1.222295ms | 217.142.185.253 | GET      "/.AWS_/credentials"
+2024/12/19 02:49:08 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:49:08 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:49:08 | 403 |    1.338092ms | 217.142.185.253 | GET      "/karma.conf.json"
+2024/12/19 02:49:09 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:49:09 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:49:09 | 403 |     992.098µs | 217.142.185.253 | GET      "/index.php"
+2024/12/19 02:49:10 Checking IP: 217.142.185.253 for blacklist
+2024/12/19 02:49:10 Blocked blacklisted IP: 217.142.185.253
+[GIN] 2024/12/19 - 02:49:10 | 403 |    1.032536ms | 217.142.185.253 | GET      "/.aws/credentials"
+2024/12/19 05:21:47 Checking IP: 192.158.226.26 for blacklist
+2024/12/19 05:21:47 Requested path: /
+2024/12/19 05:21:47 Path / not in blacklist
+2024/12/19 05:21:47 Client IP: 192.158.226.26, Request Path: /
+2024/12/19 05:21:47 IP: 192.158.226.26, Country: US, City: Charlotte
+[GIN] 2024/12/19 - 05:21:47 | 200 |   14.860782ms |  192.158.226.26 | GET      "/"
+2024/12/19 10:50:03 Checking IP: 167.99.223.240 for blacklist
+2024/12/19 10:50:03 Requested path: /
+2024/12/19 10:50:03 Path / not in blacklist
+2024/12/19 10:50:03 Client IP: 167.99.223.240, Request Path: /
+2024/12/19 10:50:03 IP: 167.99.223.240, Country: NL, City: Amsterdam
+[GIN] 2024/12/19 - 10:50:03 | 200 |   14.248202ms |  167.99.223.240 | GET      "/"
+2024/12/19 10:50:03 Checking IP: 167.99.223.240 for blacklist
+2024/12/19 10:50:03 Requested path: /favicon.ico
+2024/12/19 10:50:03 Path /favicon.ico not in blacklist
+2024/12/19 10:50:03 Client IP: 167.99.223.240, Request Path: /favicon.ico
+2024/12/19 10:50:03 IP: 167.99.223.240, Country: NL, City: Amsterdam
+[GIN] 2024/12/19 - 10:50:03 | 404 |    6.225801ms |  167.99.223.240 | GET      "/favicon.ico"
+2024/12/19 10:50:04 Checking IP: 167.99.223.240 for blacklist
+2024/12/19 10:50:04 Requested path: /ads.txt
+2024/12/19 10:50:04 Path /ads.txt not in blacklist
+2024/12/19 10:50:04 Client IP: 167.99.223.240, Request Path: /ads.txt
+2024/12/19 10:50:04 IP: 167.99.223.240, Country: NL, City: Amsterdam
+[GIN] 2024/12/19 - 10:50:04 | 404 |   10.265706ms |  167.99.223.240 | GET      "/ads.txt"
+2024/12/19 12:09:19 Checking IP: 43.166.7.113 for blacklist
+2024/12/19 12:09:19 Requested path: /
+2024/12/19 12:09:19 Path / not in blacklist
+2024/12/19 12:09:19 Client IP: 43.166.7.113, Request Path: /
+2024/12/19 12:09:19 IP: 43.166.7.113, Country: SG, City: 
+2024/12/19 12:09:19 Rejected country: SG
+[GIN] 2024/12/19 - 12:09:19 | 403 |   13.769589ms |    43.166.7.113 | GET      "/"
+2024/12/19 16:25:13 Checking IP: 199.244.88.226 for blacklist
+2024/12/19 16:25:13 Requested path: /
+2024/12/19 16:25:13 Path / not in blacklist
+2024/12/19 16:25:13 Client IP: 199.244.88.226, Request Path: /
+2024/12/19 16:25:13 IP: 199.244.88.226, Country: US, City: 
+[GIN] 2024/12/19 - 16:25:13 | 200 |   14.418271ms |  199.244.88.226 | GET      "/"
+2024/12/19 18:11:12 Checking IP: 43.155.195.141 for blacklist
+2024/12/19 18:11:12 Requested path: /
+2024/12/19 18:11:12 Path / not in blacklist
+2024/12/19 18:11:12 Client IP: 43.155.195.141, Request Path: /
+2024/12/19 18:11:12 IP: 43.155.195.141, Country: KR, City: Seoul
+2024/12/19 18:11:12 Rejected country: KR
+[GIN] 2024/12/19 - 18:11:12 | 403 |   12.936999ms |  43.155.195.141 | GET      "/"
+2024/12/19 23:44:10 Checking IP: 93.158.91.242 for blacklist
+2024/12/19 23:44:10 Requested path: /
+2024/12/19 23:44:10 Path / not in blacklist
+2024/12/19 23:44:10 Client IP: 93.158.91.242, Request Path: /
+2024/12/19 23:44:10 IP: 93.158.91.242, Country: SE, City: Nyköping
+[GIN] 2024/12/19 - 23:44:11 | 200 |   13.606156ms |   93.158.91.242 | GET      "/"
+2024/12/19 23:44:11 Checking IP: 93.158.91.252 for blacklist
+2024/12/19 23:44:11 Requested path: /
+2024/12/19 23:44:11 Path / not in blacklist
+2024/12/19 23:44:11 Client IP: 93.158.91.252, Request Path: /
+2024/12/19 23:44:11 IP: 93.158.91.252, Country: SE, City: Nyköping
+[GIN] 2024/12/19 - 23:44:11 | 200 |   11.179585ms |   93.158.91.252 | GET      "/"
+2024/12/20 05:10:06 Checking IP: 2a05:d018:1d9d:e700:dc24:97db:e73c:2b33 for blacklist
+2024/12/20 05:10:06 Requested path: /
+2024/12/20 05:10:06 Path / not in blacklist
+2024/12/20 05:10:06 Client IP: 2a05:d018:1d9d:e700:dc24:97db:e73c:2b33, Request Path: /
+2024/12/20 05:10:06 IP: 2a05:d018:1d9d:e700:dc24:97db:e73c:2b33, Country: IE, City: Dublin
+[GIN] 2024/12/20 - 05:10:06 | 200 |   13.684434ms | 2a05:d018:1d9d:e700:dc24:97db:e73c:2b33 | GET      "/"
+2024/12/20 05:10:07 Checking IP: 2a05:d018:1d9d:e700:dc24:97db:e73c:2b33 for blacklist
+2024/12/20 05:10:07 Requested path: /
+2024/12/20 05:10:07 Path / not in blacklist
+2024/12/20 05:10:07 Client IP: 2a05:d018:1d9d:e700:dc24:97db:e73c:2b33, Request Path: /
+2024/12/20 05:10:07 IP: 2a05:d018:1d9d:e700:dc24:97db:e73c:2b33, Country: IE, City: Dublin
+[GIN] 2024/12/20 - 05:10:07 | 200 |    10.75927ms | 2a05:d018:1d9d:e700:dc24:97db:e73c:2b33 | GET      "/"
+2024/12/20 05:30:04 Checking IP: 170.106.179.68 for blacklist
+2024/12/20 05:30:04 Requested path: /
+2024/12/20 05:30:04 Path / not in blacklist
+2024/12/20 05:30:04 Client IP: 170.106.179.68, Request Path: /
+2024/12/20 05:30:04 IP: 170.106.179.68, Country: US, City: Santa Clara
+[GIN] 2024/12/20 - 05:30:04 | 200 |   13.920786ms |  170.106.179.68 | GET      "/"
+2024/12/20 05:50:23 Checking IP: 139.59.123.61 for blacklist
+2024/12/20 05:50:23 Requested path: /
+2024/12/20 05:50:23 Path / not in blacklist
+2024/12/20 05:50:23 Client IP: 139.59.123.61, Request Path: /
+2024/12/20 05:50:23 IP: 139.59.123.61, Country: SG, City: Singapore
+2024/12/20 05:50:23 Rejected country: SG
+[GIN] 2024/12/20 - 05:50:23 | 403 |   14.050551ms |   139.59.123.61 | GET      "/"
+2024/12/20 08:25:02 Checking IP: 121.5.231.252 for blacklist
+2024/12/20 08:25:02 Requested path: /
+2024/12/20 08:25:02 Path / not in blacklist
+2024/12/20 08:25:02 Client IP: 121.5.231.252, Request Path: /
+2024/12/20 08:25:02 IP: 121.5.231.252, Country: CN, City: 
+2024/12/20 08:25:02 Rejected country: CN
+[GIN] 2024/12/20 - 08:25:02 | 403 |   13.347878ms |   121.5.231.252 | GET      "/"
+2024/12/20 08:31:27 Checking IP: 121.5.231.252 for blacklist
+2024/12/20 08:31:27 Requested path: /
+2024/12/20 08:31:27 Path / not in blacklist
+2024/12/20 08:31:27 Client IP: 121.5.231.252, Request Path: /
+2024/12/20 08:31:27 IP: 121.5.231.252, Country: CN, City: 
+2024/12/20 08:31:27 Rejected country: CN
+[GIN] 2024/12/20 - 08:31:27 | 403 |    13.69703ms |   121.5.231.252 | GET      "/"
+2024/12/20 12:08:52 Checking IP: 43.130.12.43 for blacklist
+2024/12/20 12:08:52 Requested path: /
+2024/12/20 12:08:52 Path / not in blacklist
+2024/12/20 12:08:52 Client IP: 43.130.12.43, Request Path: /
+2024/12/20 12:08:52 IP: 43.130.12.43, Country: US, City: Santa Clara
+[GIN] 2024/12/20 - 12:08:52 | 200 |   14.748888ms |    43.130.12.43 | GET      "/"
+2024/12/20 12:14:30 Checking IP: 104.166.80.53 for blacklist
+2024/12/20 12:14:30 Requested path: /
+2024/12/20 12:14:30 Path / not in blacklist
+2024/12/20 12:14:30 Client IP: 104.166.80.53, Request Path: /
+2024/12/20 12:14:30 IP: 104.166.80.53, Country: US, City: Los Angeles
+[GIN] 2024/12/20 - 12:14:30 | 200 |   12.933713ms |   104.166.80.53 | GET      "/"
+2024/12/20 12:15:46 Checking IP: 42.83.147.54 for blacklist
+2024/12/20 12:15:46 Requested path: /
+2024/12/20 12:15:46 Path / not in blacklist
+2024/12/20 12:15:46 Client IP: 42.83.147.54, Request Path: /
+2024/12/20 12:15:46 IP: 42.83.147.54, Country: CN, City: 
+2024/12/20 12:15:46 Rejected country: CN
+[GIN] 2024/12/20 - 12:15:46 | 403 |   13.146939ms |    42.83.147.54 | GET      "/"
+2024/12/20 12:26:47 Checking IP: 43.130.15.147 for blacklist
+2024/12/20 12:26:47 Requested path: /kestrel
+2024/12/20 12:26:47 Path /kestrel not in blacklist
+2024/12/20 12:26:47 Client IP: 43.130.15.147, Request Path: /kestrel
+2024/12/20 12:26:47 IP: 43.130.15.147, Country: US, City: Santa Clara
+[GIN] 2024/12/20 - 12:26:47 | 404 |   12.749474ms |   43.130.15.147 | GET      "/kestrel"
+2024/12/20 13:44:13 Checking IP: 139.59.123.61 for blacklist
+2024/12/20 13:44:13 Requested path: /
+2024/12/20 13:44:13 Path / not in blacklist
+2024/12/20 13:44:13 Client IP: 139.59.123.61, Request Path: /
+2024/12/20 13:44:13 IP: 139.59.123.61, Country: SG, City: Singapore
+2024/12/20 13:44:13 Rejected country: SG
+[GIN] 2024/12/20 - 13:44:13 | 403 |   13.674463ms |   139.59.123.61 | GET      "/"
+2024/12/20 13:44:36 Checking IP: 139.59.123.61 for blacklist
+2024/12/20 13:44:36 Requested path: /
+2024/12/20 13:44:36 Path / not in blacklist
+2024/12/20 13:44:36 Client IP: 139.59.123.61, Request Path: /
+2024/12/20 13:44:36 IP: 139.59.123.61, Country: SG, City: Singapore
+2024/12/20 13:44:36 Rejected country: SG
+[GIN] 2024/12/20 - 13:44:36 | 403 |   12.623908ms |   139.59.123.61 | GET      "/"
+2024/12/20 13:48:29 Checking IP: 139.59.123.61 for blacklist
+2024/12/20 13:48:29 Requested path: /
+2024/12/20 13:48:29 Path / not in blacklist
+2024/12/20 13:48:29 Client IP: 139.59.123.61, Request Path: /
+2024/12/20 13:48:29 IP: 139.59.123.61, Country: SG, City: Singapore
+2024/12/20 13:48:29 Rejected country: SG
+[GIN] 2024/12/20 - 13:48:29 | 403 |   17.075181ms |   139.59.123.61 | GET      "/"
+2024/12/20 13:48:34 Checking IP: 139.59.123.61 for blacklist
+2024/12/20 13:48:34 Requested path: /
+2024/12/20 13:48:34 Path / not in blacklist
+2024/12/20 13:48:34 Client IP: 139.59.123.61, Request Path: /
+2024/12/20 13:48:34 IP: 139.59.123.61, Country: SG, City: Singapore
+2024/12/20 13:48:34 Rejected country: SG
+[GIN] 2024/12/20 - 13:48:34 | 403 |   12.798161ms |   139.59.123.61 | GET      "/"
+2024/12/20 13:48:40 Checking IP: 139.59.123.61 for blacklist
+2024/12/20 13:48:40 Requested path: /
+2024/12/20 13:48:40 Path / not in blacklist
+2024/12/20 13:48:40 Client IP: 139.59.123.61, Request Path: /
+2024/12/20 13:48:40 IP: 139.59.123.61, Country: SG, City: Singapore
+2024/12/20 13:48:40 Rejected country: SG
+[GIN] 2024/12/20 - 13:48:40 | 403 |   12.284129ms |   139.59.123.61 | GET      "/"
+2024/12/20 13:48:45 Checking IP: 139.59.123.61 for blacklist
+2024/12/20 13:48:45 Requested path: /
+2024/12/20 13:48:45 Path / not in blacklist
+2024/12/20 13:48:45 Client IP: 139.59.123.61, Request Path: /
+2024/12/20 13:48:45 IP: 139.59.123.61, Country: SG, City: Singapore
+2024/12/20 13:48:45 Rejected country: SG
+[GIN] 2024/12/20 - 13:48:45 | 403 |   12.413056ms |   139.59.123.61 | GET      "/"
+2024/12/20 13:48:50 Checking IP: 139.59.123.61 for blacklist
+2024/12/20 13:48:50 Requested path: /
+2024/12/20 13:48:50 Path / not in blacklist
+2024/12/20 13:48:50 Client IP: 139.59.123.61, Request Path: /
+2024/12/20 13:48:50 IP: 139.59.123.61, Country: SG, City: Singapore
+2024/12/20 13:48:50 Rejected country: SG
+[GIN] 2024/12/20 - 13:48:50 | 403 |   11.751937ms |   139.59.123.61 | GET      "/"
+2024/12/20 13:48:54 Checking IP: 139.59.123.61 for blacklist
+2024/12/20 13:48:54 Requested path: /
+2024/12/20 13:48:54 Path / not in blacklist
+2024/12/20 13:48:54 Client IP: 139.59.123.61, Request Path: /
+2024/12/20 13:48:54 IP: 139.59.123.61, Country: SG, City: Singapore
+2024/12/20 13:48:54 Rejected country: SG
+[GIN] 2024/12/20 - 13:48:54 | 403 |   13.113565ms |   139.59.123.61 | GET      "/"
+2024/12/20 13:48:58 Checking IP: 139.59.123.61 for blacklist
+2024/12/20 13:48:58 Requested path: /
+2024/12/20 13:48:58 Path / not in blacklist
+2024/12/20 13:48:58 Client IP: 139.59.123.61, Request Path: /
+2024/12/20 13:48:58 IP: 139.59.123.61, Country: SG, City: Singapore
+2024/12/20 13:48:58 Rejected country: SG
+[GIN] 2024/12/20 - 13:48:58 | 403 |    12.41117ms |   139.59.123.61 | GET      "/"
+2024/12/20 13:49:02 Checking IP: 139.59.123.61 for blacklist
+2024/12/20 13:49:02 Requested path: /
+2024/12/20 13:49:02 Path / not in blacklist
+2024/12/20 13:49:02 Client IP: 139.59.123.61, Request Path: /
+2024/12/20 13:49:02 IP: 139.59.123.61, Country: SG, City: Singapore
+2024/12/20 13:49:02 Rejected country: SG
+[GIN] 2024/12/20 - 13:49:02 | 403 |   12.961311ms |   139.59.123.61 | GET      "/"
+2024/12/20 15:42:35 Checking IP: 34.56.127.245 for blacklist
+2024/12/20 15:42:35 Requested path: //wp-includes/wlwmanifest.xml
+2024/12/20 15:42:35 Path //wp-includes/wlwmanifest.xml not in blacklist
+2024/12/20 15:42:35 Client IP: 34.56.127.245, Request Path: //wp-includes/wlwmanifest.xml
+2024/12/20 15:42:35 IP: 34.56.127.245, Country: US, City: 
+[GIN] 2024/12/20 - 15:42:35 | 404 |    14.45759ms |   34.56.127.245 | GET      "//wp-includes/wlwmanifest.xml"
+2024/12/20 15:42:35 Checking IP: 34.56.127.245 for blacklist
+2024/12/20 15:42:35 Requested path: /
+2024/12/20 15:42:35 Path / not in blacklist
+2024/12/20 15:42:35 Client IP: 34.56.127.245, Request Path: /
+2024/12/20 15:42:35 IP: 34.56.127.245, Country: US, City: 
+[GIN] 2024/12/20 - 15:42:35 | 200 |   10.488014ms |   34.56.127.245 | GET      "/"
+2024/12/20 15:42:36 Checking IP: 34.56.127.245 for blacklist
+2024/12/20 15:42:36 Requested path: //web/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:36 Path //web/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/20 15:42:36 Client IP: 34.56.127.245, Request Path: //web/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:36 IP: 34.56.127.245, Country: US, City: 
+[GIN] 2024/12/20 - 15:42:36 | 404 |    5.168125ms |   34.56.127.245 | GET      "//web/wp-includes/wlwmanifest.xml"
+2024/12/20 15:42:36 Checking IP: 34.56.127.245 for blacklist
+2024/12/20 15:42:36 Requested path: //website/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:36 Path //website/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/20 15:42:36 Client IP: 34.56.127.245, Request Path: //website/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:36 IP: 34.56.127.245, Country: US, City: 
+[GIN] 2024/12/20 - 15:42:36 | 404 |   10.087823ms |   34.56.127.245 | GET      "//website/wp-includes/wlwmanifest.xml"
+2024/12/20 15:42:36 Checking IP: 34.56.127.245 for blacklist
+2024/12/20 15:42:36 Requested path: //news/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:36 Path //news/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/20 15:42:36 Client IP: 34.56.127.245, Request Path: //news/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:36 IP: 34.56.127.245, Country: US, City: 
+[GIN] 2024/12/20 - 15:42:36 | 404 |    4.522301ms |   34.56.127.245 | GET      "//news/wp-includes/wlwmanifest.xml"
+2024/12/20 15:42:36 Checking IP: 34.56.127.245 for blacklist
+2024/12/20 15:42:36 Requested path: //2019/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:36 Path //2019/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/20 15:42:36 Client IP: 34.56.127.245, Request Path: //2019/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:36 IP: 34.56.127.245, Country: US, City: 
+[GIN] 2024/12/20 - 15:42:36 | 404 |   12.453421ms |   34.56.127.245 | GET      "//2019/wp-includes/wlwmanifest.xml"
+2024/12/20 15:42:36 Checking IP: 34.56.127.245 for blacklist
+2024/12/20 15:42:36 Requested path: //wp1/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:36 Path //wp1/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/20 15:42:36 Client IP: 34.56.127.245, Request Path: //wp1/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:36 IP: 34.56.127.245, Country: US, City: 
+[GIN] 2024/12/20 - 15:42:36 | 404 |   10.549055ms |   34.56.127.245 | GET      "//wp1/wp-includes/wlwmanifest.xml"
+2024/12/20 15:42:37 Checking IP: 34.56.127.245 for blacklist
+2024/12/20 15:42:37 Requested path: //media/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:37 Path //media/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/20 15:42:37 Client IP: 34.56.127.245, Request Path: //media/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:37 IP: 34.56.127.245, Country: US, City: 
+[GIN] 2024/12/20 - 15:42:37 | 404 |   10.409652ms |   34.56.127.245 | GET      "//media/wp-includes/wlwmanifest.xml"
+2024/12/20 15:42:37 Checking IP: 34.56.127.245 for blacklist
+2024/12/20 15:42:37 Requested path: //site/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:37 Path //site/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/20 15:42:37 Client IP: 34.56.127.245, Request Path: //site/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:37 IP: 34.56.127.245, Country: US, City: 
+[GIN] 2024/12/20 - 15:42:37 | 404 |   10.999323ms |   34.56.127.245 | GET      "//site/wp-includes/wlwmanifest.xml"
+2024/12/20 15:42:37 Checking IP: 34.56.127.245 for blacklist
+2024/12/20 15:42:37 Requested path: //sito/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:37 Path //sito/wp-includes/wlwmanifest.xml not in blacklist
+2024/12/20 15:42:37 Client IP: 34.56.127.245, Request Path: //sito/wp-includes/wlwmanifest.xml
+2024/12/20 15:42:37 IP: 34.56.127.245, Country: US, City: 
+[GIN] 2024/12/20 - 15:42:37 | 404 |    4.181195ms |   34.56.127.245 | GET      "//sito/wp-includes/wlwmanifest.xml"
+2024/12/20 16:21:24 Connected to MariaDB server successfully
+2024/12/20 16:21:24 Database `user_logs` ensured
+2024/12/20 16:21:24 Connected to `user_logs` database successfully
+2024/12/20 16:21:24 Table `accessed_parts` ensured
+2024/12/20 16:21:24 Table `user_info` ensured
+2024/12/20 16:21:25 Started Ngrok server at resume.connorisseur.com
+2024/12/20 17:08:58 Checking IP: 69.1.192.9 for blacklist
+2024/12/20 17:08:58 Requested path: /
+2024/12/20 17:08:58 Path / not in blacklist
+2024/12/20 17:08:58 Client IP: 69.1.192.9, Request Path: /
+2024/12/20 17:08:58 IP: 69.1.192.9, Country: US, City: Atlanta
+[GIN] 2024/12/20 - 17:08:58 | 200 |   17.923822ms |      69.1.192.9 | GET      "/"
+2024/12/20 17:08:58 Checking IP: 69.1.192.9 for blacklist
+2024/12/20 17:08:58 Requested path: /public/css/style.css
+2024/12/20 17:08:58 Path /public/css/style.css not in blacklist
+2024/12/20 17:08:58 Client IP: 69.1.192.9, Request Path: /public/css/style.css
+2024/12/20 17:08:58 IP: 69.1.192.9, Country: US, City: Atlanta
+2024/12/20 17:08:58 Checking IP: 69.1.192.9 for blacklist
+2024/12/20 17:08:58 Requested path: /public/js/index.js
+2024/12/20 17:08:58 Path /public/js/index.js not in blacklist
+2024/12/20 17:08:58 Client IP: 69.1.192.9, Request Path: /public/js/index.js
+2024/12/20 17:08:58 IP: 69.1.192.9, Country: US, City: Atlanta
+[GIN] 2024/12/20 - 17:08:58 | 200 |    4.030338ms |      69.1.192.9 | GET      "/public/css/style.css"
+[GIN] 2024/12/20 - 17:08:58 | 200 |    4.101368ms |      69.1.192.9 | GET      "/public/js/index.js"
+2024/12/20 17:08:59 Checking IP: 69.1.192.9 for blacklist
+2024/12/20 17:08:59 Requested path: /favicon.ico
+2024/12/20 17:08:59 Path /favicon.ico not in blacklist
+2024/12/20 17:08:59 Client IP: 69.1.192.9, Request Path: /favicon.ico
+2024/12/20 17:08:59 IP: 69.1.192.9, Country: US, City: Atlanta
+[GIN] 2024/12/20 - 17:08:59 | 404 |   12.345238ms |      69.1.192.9 | GET      "/favicon.ico"
+2024/12/20 17:08:59 Checking IP: 69.1.192.9 for blacklist
+2024/12/20 17:08:59 Checking IP: 69.1.192.9 for blacklist
+2024/12/20 17:08:59 Requested path: /public/json/portfolio.json
+2024/12/20 17:08:59 Path /public/json/portfolio.json not in blacklist
+2024/12/20 17:08:59 Client IP: 69.1.192.9, Request Path: /public/json/portfolio.json
+2024/12/20 17:08:59 IP: 69.1.192.9, Country: US, City: Atlanta
+2024/12/20 17:08:59 Requested path: /public/json/resume.json
+2024/12/20 17:08:59 Path /public/json/resume.json not in blacklist
+2024/12/20 17:08:59 Client IP: 69.1.192.9, Request Path: /public/json/resume.json
+2024/12/20 17:08:59 IP: 69.1.192.9, Country: US, City: Atlanta
+[GIN] 2024/12/20 - 17:08:59 | 200 |   12.195359ms |      69.1.192.9 | GET      "/public/json/portfolio.json"
+[GIN] 2024/12/20 - 17:08:59 | 200 |   12.778395ms |      69.1.192.9 | GET      "/public/json/resume.json"
+2024/12/20 17:08:59 Checking IP: 69.1.192.9 for blacklist
+2024/12/20 17:08:59 Checking IP: 69.1.192.9 for blacklist
+2024/12/20 17:08:59 Requested path: /public/json/about.json
+2024/12/20 17:08:59 Path /public/json/about.json not in blacklist
+2024/12/20 17:08:59 Client IP: 69.1.192.9, Request Path: /public/json/about.json
+2024/12/20 17:08:59 Requested path: /public/json/contacts.json
+2024/12/20 17:08:59 Path /public/json/contacts.json not in blacklist
+2024/12/20 17:08:59 IP: 69.1.192.9, Country: US, City: Atlanta
+2024/12/20 17:08:59 Client IP: 69.1.192.9, Request Path: /public/json/contacts.json
+2024/12/20 17:08:59 IP: 69.1.192.9, Country: US, City: Atlanta
+[GIN] 2024/12/20 - 17:08:59 | 200 |    3.560794ms |      69.1.192.9 | GET      "/public/json/contacts.json"
+[GIN] 2024/12/20 - 17:08:59 | 200 |    3.790014ms |      69.1.192.9 | GET      "/public/json/about.json"
+2024/12/20 17:48:37 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:48:37 Requested path: /
+2024/12/20 17:48:37 Path / not in blacklist
+2024/12/20 17:48:37 Client IP: 45.134.142.196, Request Path: /
+2024/12/20 17:48:37 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:48:37 | 200 |   14.364702ms |  45.134.142.196 | GET      "/"
+2024/12/20 17:48:37 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:48:37 Requested path: /public/css/style.css
+2024/12/20 17:48:37 Path /public/css/style.css not in blacklist
+2024/12/20 17:48:37 Client IP: 45.134.142.196, Request Path: /public/css/style.css
+2024/12/20 17:48:37 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:48:37 | 200 |   13.210084ms |  45.134.142.196 | GET      "/public/css/style.css"
+2024/12/20 17:48:37 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:48:37 Requested path: /public/js/index.js
+2024/12/20 17:48:37 Path /public/js/index.js not in blacklist
+2024/12/20 17:48:37 Client IP: 45.134.142.196, Request Path: /public/js/index.js
+2024/12/20 17:48:37 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:48:37 | 200 |    4.503654ms |  45.134.142.196 | GET      "/public/js/index.js"
+2024/12/20 17:48:39 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:48:39 Requested path: /favicon.ico
+2024/12/20 17:48:39 Path /favicon.ico not in blacklist
+2024/12/20 17:48:39 Client IP: 45.134.142.196, Request Path: /favicon.ico
+2024/12/20 17:48:39 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:48:39 | 404 |   12.640318ms |  45.134.142.196 | GET      "/favicon.ico"
+2024/12/20 17:48:42 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:48:42 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:48:42 Requested path: /public/json/portfolio.json
+2024/12/20 17:48:42 Path /public/json/portfolio.json not in blacklist
+2024/12/20 17:48:42 Client IP: 45.134.142.196, Request Path: /public/json/portfolio.json
+2024/12/20 17:48:42 IP: 45.134.142.196, Country: US, City: Miami
+2024/12/20 17:48:42 Requested path: /public/json/resume.json
+2024/12/20 17:48:42 Path /public/json/resume.json not in blacklist
+2024/12/20 17:48:42 Client IP: 45.134.142.196, Request Path: /public/json/resume.json
+2024/12/20 17:48:42 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:48:42 | 200 |    6.483378ms |  45.134.142.196 | GET      "/public/json/resume.json"
+[GIN] 2024/12/20 - 17:48:42 | 200 |    6.889716ms |  45.134.142.196 | GET      "/public/json/portfolio.json"
+2024/12/20 17:48:42 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:48:42 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:48:42 Requested path: /public/json/about.json
+2024/12/20 17:48:42 Path /public/json/about.json not in blacklist
+2024/12/20 17:48:42 Client IP: 45.134.142.196, Request Path: /public/json/about.json
+2024/12/20 17:48:42 IP: 45.134.142.196, Country: US, City: Miami
+2024/12/20 17:48:42 Requested path: /public/json/contacts.json
+2024/12/20 17:48:42 Path /public/json/contacts.json not in blacklist
+2024/12/20 17:48:42 Client IP: 45.134.142.196, Request Path: /public/json/contacts.json
+2024/12/20 17:48:42 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:48:42 | 200 |    4.116174ms |  45.134.142.196 | GET      "/public/json/contacts.json"
+[GIN] 2024/12/20 - 17:48:42 | 200 |    4.553241ms |  45.134.142.196 | GET      "/public/json/about.json"
+2024/12/20 17:48:50 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:48:50 Requested path: /
+2024/12/20 17:48:50 Path / not in blacklist
+2024/12/20 17:48:50 Client IP: 45.134.142.196, Request Path: /
+2024/12/20 17:48:50 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:48:50 | 200 |   12.948598ms |  45.134.142.196 | GET      "/"
+2024/12/20 17:48:57 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:48:57 Requested path: /
+2024/12/20 17:48:57 Path / not in blacklist
+2024/12/20 17:48:57 Client IP: 45.134.142.196, Request Path: /
+2024/12/20 17:48:57 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:48:57 | 200 |   13.627316ms |  45.134.142.196 | GET      "/"
+2024/12/20 17:48:57 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:48:57 Requested path: /public/css/style.css
+2024/12/20 17:48:57 Path /public/css/style.css not in blacklist
+2024/12/20 17:48:57 Client IP: 45.134.142.196, Request Path: /public/css/style.css
+2024/12/20 17:48:57 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:48:57 | 200 |    4.499952ms |  45.134.142.196 | GET      "/public/css/style.css"
+2024/12/20 17:48:57 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:48:57 Requested path: /public/js/index.js
+2024/12/20 17:48:57 Path /public/js/index.js not in blacklist
+2024/12/20 17:48:57 Client IP: 45.134.142.196, Request Path: /public/js/index.js
+2024/12/20 17:48:57 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:48:57 | 200 |    4.239513ms |  45.134.142.196 | GET      "/public/js/index.js"
+2024/12/20 17:48:58 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:48:58 Requested path: /favicon.ico
+2024/12/20 17:48:58 Path /favicon.ico not in blacklist
+2024/12/20 17:48:58 Client IP: 45.134.142.196, Request Path: /favicon.ico
+2024/12/20 17:48:58 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:48:58 | 404 |   12.879036ms |  45.134.142.196 | GET      "/favicon.ico"
+2024/12/20 17:49:01 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:49:01 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:49:01 Requested path: /public/json/resume.json
+2024/12/20 17:49:01 Path /public/json/resume.json not in blacklist
+2024/12/20 17:49:01 Client IP: 45.134.142.196, Request Path: /public/json/resume.json
+2024/12/20 17:49:01 IP: 45.134.142.196, Country: US, City: Miami
+2024/12/20 17:49:01 Requested path: /public/json/portfolio.json
+2024/12/20 17:49:01 Path /public/json/portfolio.json not in blacklist
+2024/12/20 17:49:01 Client IP: 45.134.142.196, Request Path: /public/json/portfolio.json
+2024/12/20 17:49:01 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:49:01 | 200 |   13.007265ms |  45.134.142.196 | GET      "/public/json/portfolio.json"
+[GIN] 2024/12/20 - 17:49:01 | 200 |    13.18536ms |  45.134.142.196 | GET      "/public/json/resume.json"
+2024/12/20 17:49:01 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:49:01 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:49:01 Requested path: /public/json/about.json
+2024/12/20 17:49:01 Requested path: /public/json/contacts.json
+2024/12/20 17:49:01 Path /public/json/about.json not in blacklist
+2024/12/20 17:49:01 Path /public/json/contacts.json not in blacklist
+2024/12/20 17:49:01 Client IP: 45.134.142.196, Request Path: /public/json/about.json
+2024/12/20 17:49:01 Client IP: 45.134.142.196, Request Path: /public/json/contacts.json
+2024/12/20 17:49:01 IP: 45.134.142.196, Country: US, City: Miami
+2024/12/20 17:49:01 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:49:01 | 200 |    4.274504ms |  45.134.142.196 | GET      "/public/json/about.json"
+[GIN] 2024/12/20 - 17:49:01 | 200 |    4.693343ms |  45.134.142.196 | GET      "/public/json/contacts.json"
+2024/12/20 17:49:03 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:49:03 Checking IP: 45.134.142.196 for blacklist
+2024/12/20 17:49:03 Requested path: /public/icons/email-icon.png
+2024/12/20 17:49:03 Path /public/icons/email-icon.png not in blacklist
+2024/12/20 17:49:03 Requested path: /public/icons/phone-icon.png
+2024/12/20 17:49:03 Client IP: 45.134.142.196, Request Path: /public/icons/email-icon.png
+2024/12/20 17:49:03 Path /public/icons/phone-icon.png not in blacklist
+2024/12/20 17:49:03 Client IP: 45.134.142.196, Request Path: /public/icons/phone-icon.png
+2024/12/20 17:49:03 IP: 45.134.142.196, Country: US, City: Miami
+2024/12/20 17:49:03 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/20 - 17:49:03 | 200 |   13.781666ms |  45.134.142.196 | GET      "/public/icons/phone-icon.png"
+[GIN] 2024/12/20 - 17:49:03 | 200 |   15.969867ms |  45.134.142.196 | GET      "/public/icons/email-icon.png"
+2024/12/20 18:11:49 Checking IP: 43.153.102.138 for blacklist
+2024/12/20 18:11:49 Requested path: /
+2024/12/20 18:11:49 Path / not in blacklist
+2024/12/20 18:11:49 Client IP: 43.153.102.138, Request Path: /
+2024/12/20 18:11:49 IP: 43.153.102.138, Country: US, City: 
+[GIN] 2024/12/20 - 18:11:49 | 200 |    14.18944ms |  43.153.102.138 | GET      "/"
+2024/12/21 02:40:43 Database error: error connecting to the database: dial tcp 127.0.0.1:3306: connect: connection refused
+2024/12/21 02:41:20 Database error: error connecting to the database: dial tcp 127.0.0.1:3306: connect: connection refused
+2024/12/21 02:41:48 Database error: error connecting to the database: dial tcp 127.0.0.1:3306: connect: connection refused
+2024/12/21 02:42:59 Database error: error connecting to the database: dial tcp 127.0.0.1:3306: connect: connection refused
+2024/12/21 02:45:08 Database error: error connecting to the database: dial tcp 127.0.0.1:3306: connect: connection refused
+2024/12/21 02:46:05 Database error: error connecting to the database: dial tcp 127.0.0.1:3306: connect: connection refused
+2024/12/21 02:47:46 Database error: error connecting to the database: dial tcp 127.0.0.1:3306: connect: connection refused
+2024/12/21 02:49:35 Database error: error connecting to the database: dial tcp 127.0.0.1:3306: connect: connection refused
+2024/12/21 02:53:19 Database error: error connecting to the database: dial tcp 127.0.0.1:3306: connect: connection refused
+2024/12/21 02:55:46 Database error: error connecting to the database: dial tcp 127.0.0.1:3306: connect: connection refused
+2024/12/21 02:57:34 Database error: error connecting to the database: dial tcp 127.0.0.1:3306: connect: connection refused
+2024/12/21 02:58:07 Connected to MariaDB server successfully
+2024/12/21 02:58:07 Database `user_logs` ensured
+2024/12/21 02:58:07 Connected to `user_logs` database successfully
+2024/12/21 02:58:07 Table `accessed_parts` ensured
+2024/12/21 02:58:07 Table `user_info` ensured
+2024/12/21 02:58:11 Started Ngrok server at resume.connorisseur.com
+2024/12/21 02:58:39 Checking IP: 45.134.142.196 for blacklist
+2024/12/21 02:58:39 Requested path: /
+2024/12/21 02:58:39 Path / not in blacklist
+2024/12/21 02:58:39 Client IP: 45.134.142.196, Request Path: /
+2024/12/21 02:58:39 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/21 - 02:58:39 | 200 |   29.045164ms |  45.134.142.196 | GET      "/"
+2024/12/21 02:58:39 Checking IP: 45.134.142.196 for blacklist
+2024/12/21 02:58:39 Checking IP: 45.134.142.196 for blacklist
+2024/12/21 02:58:39 Requested path: /public/css/style.css
+2024/12/21 02:58:39 Path /public/css/style.css not in blacklist
+2024/12/21 02:58:39 Client IP: 45.134.142.196, Request Path: /public/css/style.css
+2024/12/21 02:58:39 IP: 45.134.142.196, Country: US, City: Miami
+2024/12/21 02:58:39 Requested path: /public/js/index.js
+2024/12/21 02:58:39 Path /public/js/index.js not in blacklist
+2024/12/21 02:58:39 Client IP: 45.134.142.196, Request Path: /public/js/index.js
+2024/12/21 02:58:39 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/21 - 02:58:39 | 200 |    5.639625ms |  45.134.142.196 | GET      "/public/js/index.js"
+[GIN] 2024/12/21 - 02:58:39 | 200 |    7.097496ms |  45.134.142.196 | GET      "/public/css/style.css"
+2024/12/21 02:58:41 Checking IP: 45.134.142.196 for blacklist
+2024/12/21 02:58:41 Checking IP: 45.134.142.196 for blacklist
+2024/12/21 02:58:41 Requested path: /public/json/resume.json
+2024/12/21 02:58:41 Path /public/json/resume.json not in blacklist
+2024/12/21 02:58:41 Client IP: 45.134.142.196, Request Path: /public/json/resume.json
+2024/12/21 02:58:41 IP: 45.134.142.196, Country: US, City: Miami
+2024/12/21 02:58:41 Requested path: /public/json/portfolio.json
+2024/12/21 02:58:41 Path /public/json/portfolio.json not in blacklist
+2024/12/21 02:58:41 Client IP: 45.134.142.196, Request Path: /public/json/portfolio.json
+2024/12/21 02:58:41 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/21 - 02:58:41 | 200 |    12.19138ms |  45.134.142.196 | GET      "/public/json/resume.json"
+[GIN] 2024/12/21 - 02:58:41 | 200 |   11.620845ms |  45.134.142.196 | GET      "/public/json/portfolio.json"
+2024/12/21 02:58:41 Checking IP: 45.134.142.196 for blacklist
+2024/12/21 02:58:41 Checking IP: 45.134.142.196 for blacklist
+2024/12/21 02:58:41 Requested path: /public/json/contacts.json
+2024/12/21 02:58:41 Path /public/json/contacts.json not in blacklist
+2024/12/21 02:58:41 Client IP: 45.134.142.196, Request Path: /public/json/contacts.json
+2024/12/21 02:58:41 IP: 45.134.142.196, Country: US, City: Miami
+2024/12/21 02:58:41 Requested path: /public/json/about.json
+2024/12/21 02:58:41 Path /public/json/about.json not in blacklist
+2024/12/21 02:58:41 Client IP: 45.134.142.196, Request Path: /public/json/about.json
+2024/12/21 02:58:41 IP: 45.134.142.196, Country: US, City: Miami
+[GIN] 2024/12/21 - 02:58:41 | 200 |    4.089006ms |  45.134.142.196 | GET      "/public/json/contacts.json"
+[GIN] 2024/12/21 - 02:58:41 | 200 |     4.39596ms |  45.134.142.196 | GET      "/public/json/about.json"
+2024/12/21 02:59:36 Connected to MariaDB server successfully
+2024/12/21 02:59:36 Database `user_logs` ensured
+2024/12/21 02:59:36 Connected to `user_logs` database successfully
+2024/12/21 02:59:36 Table `accessed_parts` ensured
+2024/12/21 02:59:36 Table `user_info` ensured
+2024/12/21 02:59:41 Started Ngrok server at resume.connorisseur.com

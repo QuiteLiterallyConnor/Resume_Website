@@ -90,6 +90,11 @@ func verifyGeoIP(cityDB *geoip2.Reader, allowedCountries map[string]bool) gin.Ha
 
 // logUserIP logs the IP, country, city, accessed parts, and client data to the database
 func logUserIP(ip, country, city, accessedParts, clientData string, blacklisted bool) {
+	if !dbEnabled {
+		log.Printf("Database disabled. Skipping logging for IP: %s", ip)
+		return
+	}
+
 	timeAccessed := time.Now()
 
 	// Check if the IP already exists to update the last accessed time

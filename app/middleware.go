@@ -10,6 +10,11 @@ import (
 )
 
 func checkBlacklist(c *gin.Context) {
+	if !dbEnabled {
+		log.Println("Database disabled. Skipping blacklist check.")
+		c.Next()
+		return
+	}
 	ip := c.ClientIP()
 
 	// Check if the request is behind a proxy and use the forwarded IP
