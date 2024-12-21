@@ -12,6 +12,7 @@
 
 - Build
     docker compose build
+    go build -o main main.go
 
 TO RUN:
 - Docker 
