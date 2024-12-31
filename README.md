@@ -15,7 +15,7 @@
     go build -o main main.go
 
 TO RUN:
-- Docker 
+-  
     docker compose up -d
 or 
 - Standalone
