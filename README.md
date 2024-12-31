@@ -18,5 +18,4 @@ TO RUN:
 -  
     docker compose up -d
 or 
-- Standalone
     go run main.go
