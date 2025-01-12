@@ -5,6 +5,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - .:/app
+      - /snap/bin/loclx:/usr/local/bin/loclx
     environment:
       - NGROK_AUTH_TOKEN=${NGROK_AUTH_TOKEN}
     depends_on:

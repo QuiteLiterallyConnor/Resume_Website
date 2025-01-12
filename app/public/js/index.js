@@ -146,6 +146,8 @@ $(document).ready(function() {
             $('#mute-button').click(toggleMute);
             displayAbout();
             document.addEventListener('click', playAudio);
+            $('#resume-tab').trigger('click');
+
         });
     }
 
@@ -179,4 +181,6 @@ $(document).ready(function() {
     });
 
     initializeRecaptcha();
+
+    // Automatically open Resume tab on page load
 });

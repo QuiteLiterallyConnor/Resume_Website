@@ -1,24 +1,23 @@
 package app
 
 import (
-	"context"
 	"database/sql"
 	"fmt"
 	"log"
 	"os"
+	"os/exec"
+	"sync"
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
 	ngrok "golang.ngrok.com/ngrok"
-	ngrokConfig "golang.ngrok.com/ngrok/config"
 )
 
 var (
-	logFile     *os.File
-	db          *sql.DB
-	tunnel      ngrok.Tunnel
-	stopChannel = make(chan bool)
-	dbEnabled   = true // Flag to indicate whether DB functionality is active
+	logFile   *os.File
+	db        *sql.DB
+	tunnel    ngrok.Tunnel
+	dbEnabled = false // Flag to indicate whether DB functionality is active
 )
 
 func initLogger() (*os.File, error) {
@@ -32,7 +31,7 @@ func initLogger() (*os.File, error) {
 
 func initDBConnection() error {
 	var err error
-	serverDSN := "users1234:User1234@tcp(172.18.0.2:3306)/"
+	serverDSN := "users1234:User1234@tcp(172.18.0.3:3306)/"
 	db, err = sql.Open("mysql", serverDSN)
 	if err != nil {
 		dbEnabled = false
@@ -59,7 +58,7 @@ func ensureDatabaseAndTables() error {
 	log.Println("Database `user_logs` ensured")
 
 	// Reconnect to the `user_logs` database
-	dsn := "users1234:User1234@tcp(172.18.0.2:3306)/user_logs"
+	dsn := "users1234:User1234@tcp(172.18.0.3:3306)/user_logs"
 	db, err = sql.Open("mysql", dsn)
 	if err != nil {
 		return fmt.Errorf("error connecting to `user_logs` database: %v", err)
@@ -135,16 +134,16 @@ func initDB() error {
 	return nil
 }
 
-func startNgrok(ctx context.Context) (ngrok.Tunnel, error) {
-	authToken := os.Getenv("NGROK_AUTH_TOKEN")
-	if authToken == "" {
-		return nil, fmt.Errorf("NGROK_AUTH_TOKEN is not set in environment variables")
-	}
+func startTunnel(localhost, hostname string) error {
+	cmd := exec.Command("loclx", "tunnel", "http", "-to", localhost, "-S", hostname)
+	cmd.Stdout = os.Stdout
+	cmd.Stderr = os.Stderr
 
-	return ngrok.Listen(ctx,
-		ngrokConfig.HTTPEndpoint(ngrokConfig.WithDomain("resume.connorisseur.com")),
-		ngrok.WithAuthtoken(authToken),
-	)
+	err := cmd.Run()
+	if err != nil {
+		fmt.Printf("Error starting tunnel: %v\n", err)
+	}
+	return err
 }
 
 func StartServer() {
@@ -155,10 +154,12 @@ func StartServer() {
 	}
 	defer logFile.Close()
 
-	if err = initDB(); err != nil {
-		log.Fatalf("Database error: %v", err)
+	if dbEnabled {
+		if err = initDB(); err != nil {
+			log.Fatalf("Database error: %v", err)
+		}
+		defer db.Close()
 	}
-	defer db.Close()
 
 	cityDB, err := LoadGeoIPDatabases()
 	if err != nil {
@@ -173,51 +174,26 @@ func StartServer() {
 
 	r := SetupGinRouter(logFile, cityDB, countries)
 
-	tunnel, err = startNgrok(context.Background())
-	if err != nil {
-		log.Fatalf("Ngrok error: %v", err)
-	}
+	localhost := ":8081"
+	hostname := "resume.connorisseur.com"
 
-	log.Printf("Started Ngrok server at resume.connorisseur.com")
+	// Log that the server is starting locally
+	log.Printf("Starting server at %s", hostname)
+
+	// Use WaitGroup to block the main goroutine
+	var wg sync.WaitGroup
+	wg.Add(1)
+
 	go func() {
-		if err := r.RunListener(tunnel); err != nil {
+		defer wg.Done()
+		// Bind to the local address and port 8080
+		if err := r.Run(localhost); err != nil {
 			log.Fatalf("Gin server error: %v", err)
 		}
 	}()
 
-	<-stopChannel
-}
+	// startTunnel(localhost, hostname)
 
-func StopServer() {
-	log.Println("Shutting down server...")
-
-	if tunnel != nil {
-		if err := tunnel.Close(); err != nil {
-			log.Printf("Error closing Ngrok tunnel: %v", err)
-		} else {
-			log.Println("Ngrok tunnel closed")
-		}
-	}
-
-	if db != nil {
-		if err := db.Close(); err != nil {
-			log.Printf("Error closing database connection: %v", err)
-		} else {
-			log.Println("Database connection closed")
-		}
-	}
-
-	// Closing the log file
-	if logFile != nil {
-		if err := logFile.Close(); err != nil {
-			log.Printf("Error closing log file: %v", err)
-		} else {
-			log.Println("Log file closed")
-		}
-	}
-
-	time.Sleep(2 * time.Second)
-
-	log.Println("Server gracefully stopped")
-	stopChannel <- true
+	// Wait indefinitely until the server is stopped
+	wg.Wait()
 }
