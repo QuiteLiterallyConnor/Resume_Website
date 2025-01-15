@@ -1,5 +1,7 @@
 # Resume_Website
 
+VIEW THIS AT https://resume.connorisseur.com
+
  TO INSTALL:
 - Install MySQL (sudo apt install mysql-server)
 - Add user "users" with password "User1234":
