@@ -8263,3 +8263,239 @@
 2025/01/12 12:43:51 IP: 45.55.35.48, Country: US, City: Clifton
 2025/01/12 12:43:51 Database disabled. Skipping logging for IP: 45.55.35.48
 [GIN] 2025/01/12 - 12:43:51 | 304 |      447.29µs |     45.55.35.48 | GET      "/public/json/portfolio.json"
+2025/01/12 12:47:18 Database disabled. Skipping blacklist check.
+2025/01/12 12:47:18 Requested path: /
+2025/01/12 12:47:18 Path / not in blacklist
+2025/01/12 12:47:18 Client IP: 45.55.35.48, Request Path: /
+2025/01/12 12:47:18 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/12 12:47:18 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/12 - 12:47:18 | 200 |     294.463µs |     45.55.35.48 | GET      "/"
+2025/01/12 12:47:18 Database disabled. Skipping blacklist check.
+2025/01/12 12:47:18 Requested path: /public/css/style.css
+2025/01/12 12:47:18 Path /public/css/style.css not in blacklist
+2025/01/12 12:47:18 Client IP: 45.55.35.48, Request Path: /public/css/style.css
+2025/01/12 12:47:18 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/12 12:47:18 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/12 - 12:47:18 | 200 |     224.892µs |     45.55.35.48 | GET      "/public/css/style.css"
+2025/01/12 12:47:19 Database disabled. Skipping blacklist check.
+2025/01/12 12:47:19 Requested path: /public/json/portfolio.json
+2025/01/12 12:47:19 Path /public/json/portfolio.json not in blacklist
+2025/01/12 12:47:19 Client IP: 45.55.35.48, Request Path: /public/json/portfolio.json
+2025/01/12 12:47:19 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/12 12:47:19 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/12 - 12:47:19 | 200 |     416.952µs |     45.55.35.48 | GET      "/public/json/portfolio.json"
+2025/01/12 12:47:24 Database disabled. Skipping blacklist check.
+2025/01/12 12:47:24 Requested path: /public/icons/email-icon.png
+2025/01/12 12:47:24 Path /public/icons/email-icon.png not in blacklist
+2025/01/12 12:47:24 Client IP: 45.55.35.48, Request Path: /public/icons/email-icon.png
+2025/01/12 12:47:24 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/12 12:47:24 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/12 - 12:47:24 | 200 |     479.861µs |     45.55.35.48 | GET      "/public/icons/email-icon.png"
+2025/01/12 12:47:24 Database disabled. Skipping blacklist check.
+2025/01/12 12:47:24 Requested path: /public/icons/phone-icon.png
+2025/01/12 12:47:24 Path /public/icons/phone-icon.png not in blacklist
+2025/01/12 12:47:24 Client IP: 45.55.35.48, Request Path: /public/icons/phone-icon.png
+2025/01/12 12:47:24 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/12 12:47:24 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/12 - 12:47:24 | 200 |     481.815µs |     45.55.35.48 | GET      "/public/icons/phone-icon.png"
+2025/01/12 17:12:36 Database disabled. Skipping blacklist check.
+2025/01/12 17:12:36 Requested path: /robots.txt
+2025/01/12 17:12:36 Path /robots.txt not in blacklist
+2025/01/12 17:12:36 Client IP: 51.222.253.5, Request Path: /robots.txt
+2025/01/12 17:12:36 IP: 51.222.253.5, Country: CA, City: 
+2025/01/12 17:12:36 Database disabled. Skipping logging for IP: 51.222.253.5
+2025/01/12 17:12:36 robots.txt requested
+[GIN] 2025/01/12 - 17:12:36 | 200 |    9.736494ms |    51.222.253.5 | GET      "/robots.txt"
+2025/01/13 00:00:04 Database disabled. Skipping blacklist check.
+2025/01/13 00:00:04 Requested path: /.env
+2025/01/13 00:00:04 Sensitive file access attempt /.env by IP: 87.121.86.59
+2025/01/13 00:00:04 IP 87.121.86.59 added to blacklist
+[GIN] 2025/01/13 - 00:00:04 | 500 |    1.752532ms |    87.121.86.59 | GET      "/.env"
+2025/01/13 00:00:05 Database disabled. Skipping blacklist check.
+2025/01/13 00:00:05 Requested path: /
+2025/01/13 00:00:05 Path / not in blacklist
+2025/01/13 00:00:05 Client IP: 87.121.86.59, Request Path: /
+2025/01/13 00:00:05 IP: 87.121.86.59, Country: BG, City: 
+2025/01/13 00:00:05 Database disabled. Skipping logging for IP: 87.121.86.59
+[GIN] 2025/01/13 - 00:00:05 | 404 |     255.109µs |    87.121.86.59 | POST     "/"
+2025/01/13 01:20:47 Database disabled. Skipping blacklist check.
+2025/01/13 01:20:47 Requested path: /.git/config
+2025/01/13 01:20:47 Sensitive file access attempt /.git/config by IP: 45.55.35.48
+2025/01/13 01:20:47 IP 45.55.35.48 added to blacklist
+[GIN] 2025/01/13 - 01:20:47 | 500 |    1.843823ms |     45.55.35.48 | GET      "/.git/config"
+2025/01/13 06:13:42 Database disabled. Skipping blacklist check.
+2025/01/13 06:13:42 Requested path: /
+2025/01/13 06:13:42 Path / not in blacklist
+2025/01/13 06:13:42 Client IP: 64.23.175.189, Request Path: /
+2025/01/13 06:13:42 IP: 64.23.175.189, Country: US, City: Santa Clara
+2025/01/13 06:13:42 Database disabled. Skipping logging for IP: 64.23.175.189
+[GIN] 2025/01/13 - 06:13:42 | 200 |     435.036µs |   64.23.175.189 | GET      "/"
+2025/01/13 06:13:42 Database disabled. Skipping blacklist check.
+2025/01/13 06:13:42 Requested path: /favicon.ico
+2025/01/13 06:13:42 Path /favicon.ico not in blacklist
+2025/01/13 06:13:42 Client IP: 64.23.175.189, Request Path: /favicon.ico
+2025/01/13 06:13:42 IP: 64.23.175.189, Country: US, City: Santa Clara
+2025/01/13 06:13:42 Database disabled. Skipping logging for IP: 64.23.175.189
+[GIN] 2025/01/13 - 06:13:42 | 404 |     279.555µs |   64.23.175.189 | GET      "/favicon.ico"
+2025/01/13 06:13:42 Database disabled. Skipping blacklist check.
+2025/01/13 06:13:42 Requested path: /
+2025/01/13 06:13:42 Path / not in blacklist
+2025/01/13 06:13:42 Client IP: 45.55.35.48, Request Path: /
+2025/01/13 06:13:42 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/13 06:13:42 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/13 - 06:13:42 | 200 |     509.527µs |     45.55.35.48 | GET      "/"
+2025/01/13 06:13:45 Database disabled. Skipping blacklist check.
+2025/01/13 06:13:45 Requested path: /favicon.ico
+2025/01/13 06:13:45 Path /favicon.ico not in blacklist
+2025/01/13 06:13:45 Client IP: 45.55.35.48, Request Path: /favicon.ico
+2025/01/13 06:13:45 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/13 06:13:45 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/13 - 06:13:45 | 404 |     241.533µs |     45.55.35.48 | GET      "/favicon.ico"
+2025/01/14 05:49:33 Database disabled. Skipping blacklist check.
+2025/01/14 05:49:33 Requested path: /
+2025/01/14 05:49:33 Path / not in blacklist
+2025/01/14 05:49:33 Client IP: 45.55.35.48, Request Path: /
+2025/01/14 05:49:33 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/14 05:49:33 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/14 - 05:49:33 | 200 |     238.428µs |     45.55.35.48 | GET      "/"
+2025/01/14 05:49:44 Database disabled. Skipping blacklist check.
+2025/01/14 05:49:44 Requested path: //www.google.com/recaptcha/enterprise.js
+2025/01/14 05:49:44 Path //www.google.com/recaptcha/enterprise.js not in blacklist
+2025/01/14 05:49:44 Client IP: 45.55.35.48, Request Path: //www.google.com/recaptcha/enterprise.js
+2025/01/14 05:49:44 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/14 05:49:44 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/14 - 05:49:44 | 404 |       383.4µs |     45.55.35.48 | GET      "//www.google.com/recaptcha/enterprise.js?render=6LcTWBMqAAAAAEtY30zw0JD5hRFsjAu0ViwE3FiX"
+2025/01/14 05:49:44 Database disabled. Skipping blacklist check.
+2025/01/14 05:49:44 Requested path: //www.google.com/recaptcha/enterprise.js
+2025/01/14 05:49:44 Path //www.google.com/recaptcha/enterprise.js not in blacklist
+2025/01/14 05:49:44 Client IP: 45.55.35.48, Request Path: //www.google.com/recaptcha/enterprise.js
+2025/01/14 05:49:44 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/14 05:49:44 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/14 - 05:49:44 | 404 |     271.149µs |     45.55.35.48 | GET      "//www.google.com/recaptcha/enterprise.js"
+2025/01/14 05:49:44 Database disabled. Skipping blacklist check.
+2025/01/14 05:49:44 Requested path: /public/js/index.js
+2025/01/14 05:49:44 Path /public/js/index.js not in blacklist
+2025/01/14 05:49:44 Client IP: 45.55.35.48, Request Path: /public/js/index.js
+2025/01/14 05:49:44 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/14 05:49:44 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/14 - 05:49:44 | 200 |      330.09µs |     45.55.35.48 | GET      "/public/js/index.js"
+2025/01/14 05:49:44 Database disabled. Skipping blacklist check.
+2025/01/14 05:49:44 Requested path: //maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js
+2025/01/14 05:49:44 Path //maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js not in blacklist
+2025/01/14 05:49:44 Client IP: 45.55.35.48, Request Path: //maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js
+2025/01/14 05:49:44 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/14 05:49:44 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/14 - 05:49:44 | 404 |     205.777µs |     45.55.35.48 | GET      "//maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+2025/01/14 05:49:46 Database disabled. Skipping blacklist check.
+2025/01/14 05:49:46 Requested path: //ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+2025/01/14 05:49:46 Path //ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js not in blacklist
+2025/01/14 05:49:46 Client IP: 45.55.35.48, Request Path: //ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+2025/01/14 05:49:46 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/14 05:49:46 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/14 - 05:49:46 | 404 |     294.784µs |     45.55.35.48 | GET      "//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+2025/01/14 19:36:56 Database disabled. Skipping blacklist check.
+2025/01/14 19:36:56 Requested path: /
+2025/01/14 19:36:56 Path / not in blacklist
+2025/01/14 19:36:56 Client IP: 45.55.35.48, Request Path: /
+2025/01/14 19:36:56 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/14 19:36:56 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/14 - 19:36:56 | 200 |     368.723µs |     45.55.35.48 | GET      "/"
+2025/01/15 07:22:48 Database disabled. Skipping blacklist check.
+2025/01/15 07:22:48 Requested path: /
+2025/01/15 07:22:48 Path / not in blacklist
+2025/01/15 07:22:48 Client IP: 209.38.39.20, Request Path: /
+2025/01/15 07:22:48 IP: 209.38.39.20, Country: NL, City: Amsterdam
+2025/01/15 07:22:48 Database disabled. Skipping logging for IP: 209.38.39.20
+[GIN] 2025/01/15 - 07:22:48 | 200 |    8.353559ms |    209.38.39.20 | GET      "/"
+2025/01/15 07:22:48 Database disabled. Skipping blacklist check.
+2025/01/15 07:22:48 Requested path: /favicon.ico
+2025/01/15 07:22:48 Path /favicon.ico not in blacklist
+2025/01/15 07:22:48 Client IP: 209.38.39.20, Request Path: /favicon.ico
+2025/01/15 07:22:48 IP: 209.38.39.20, Country: NL, City: Amsterdam
+2025/01/15 07:22:48 Database disabled. Skipping logging for IP: 209.38.39.20
+[GIN] 2025/01/15 - 07:22:48 | 404 |     311.706µs |    209.38.39.20 | GET      "/favicon.ico"
+2025/01/15 07:22:49 Database disabled. Skipping blacklist check.
+2025/01/15 07:22:49 Requested path: /
+2025/01/15 07:22:49 Path / not in blacklist
+2025/01/15 07:22:49 Client IP: 45.55.35.48, Request Path: /
+2025/01/15 07:22:49 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/15 07:22:49 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/15 - 07:22:49 | 200 |       250.1µs |     45.55.35.48 | GET      "/"
+2025/01/15 07:22:51 Database disabled. Skipping blacklist check.
+2025/01/15 07:22:51 Requested path: /favicon.ico
+2025/01/15 07:22:51 Path /favicon.ico not in blacklist
+2025/01/15 07:22:51 Client IP: 45.55.35.48, Request Path: /favicon.ico
+2025/01/15 07:22:51 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/15 07:22:51 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/15 - 07:22:51 | 404 |     266.922µs |     45.55.35.48 | GET      "/favicon.ico"
+2025/01/15 10:23:33 Database disabled. Skipping blacklist check.
+2025/01/15 10:23:33 Requested path: /
+2025/01/15 10:23:33 Path / not in blacklist
+2025/01/15 10:23:33 Client IP: 45.55.35.48, Request Path: /
+2025/01/15 10:23:33 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/15 10:23:33 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/15 - 10:23:33 | 200 |      250.66µs |     45.55.35.48 | GET      "/"
+2025/01/15 10:23:33 Database disabled. Skipping blacklist check.
+2025/01/15 10:23:33 Requested path: /public/css/style.css
+2025/01/15 10:23:33 Path /public/css/style.css not in blacklist
+2025/01/15 10:23:33 Client IP: 45.55.35.48, Request Path: /public/css/style.css
+2025/01/15 10:23:33 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/15 10:23:33 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/15 - 10:23:33 | 200 |     576.792µs |     45.55.35.48 | GET      "/public/css/style.css"
+2025/01/15 10:23:33 Database disabled. Skipping blacklist check.
+2025/01/15 10:23:33 Requested path: /public/js/index.js
+2025/01/15 10:23:33 Path /public/js/index.js not in blacklist
+2025/01/15 10:23:33 Client IP: 45.55.35.48, Request Path: /public/js/index.js
+2025/01/15 10:23:33 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/15 10:23:33 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/15 - 10:23:33 | 200 |     262.803µs |     45.55.35.48 | GET      "/public/js/index.js"
+2025/01/15 10:23:33 Database disabled. Skipping blacklist check.
+2025/01/15 10:23:33 Requested path: /favicon.ico
+2025/01/15 10:23:33 Path /favicon.ico not in blacklist
+2025/01/15 10:23:33 Client IP: 45.55.35.48, Request Path: /favicon.ico
+2025/01/15 10:23:33 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/15 10:23:33 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/15 - 10:23:33 | 404 |     337.983µs |     45.55.35.48 | GET      "/favicon.ico"
+2025/01/15 10:23:34 Database disabled. Skipping blacklist check.
+2025/01/15 10:23:34 Requested path: /public/json/resume.json
+2025/01/15 10:23:34 Path /public/json/resume.json not in blacklist
+2025/01/15 10:23:34 Client IP: 45.55.35.48, Request Path: /public/json/resume.json
+2025/01/15 10:23:34 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/15 10:23:34 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/15 - 10:23:34 | 200 |     409.497µs |     45.55.35.48 | GET      "/public/json/resume.json"
+2025/01/15 10:23:34 Database disabled. Skipping blacklist check.
+2025/01/15 10:23:34 Requested path: /public/json/portfolio.json
+2025/01/15 10:23:34 Path /public/json/portfolio.json not in blacklist
+2025/01/15 10:23:34 Client IP: 45.55.35.48, Request Path: /public/json/portfolio.json
+2025/01/15 10:23:34 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/15 10:23:34 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/15 - 10:23:34 | 200 |     428.403µs |     45.55.35.48 | GET      "/public/json/portfolio.json"
+2025/01/15 10:23:34 Database disabled. Skipping blacklist check.
+2025/01/15 10:23:34 Database disabled. Skipping blacklist check.
+2025/01/15 10:23:34 Requested path: /public/json/about.json
+2025/01/15 10:23:34 Requested path: /public/json/contacts.json
+2025/01/15 10:23:34 Path /public/json/contacts.json not in blacklist
+2025/01/15 10:23:34 Client IP: 45.55.35.48, Request Path: /public/json/contacts.json
+2025/01/15 10:23:34 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/15 10:23:34 Database disabled. Skipping logging for IP: 45.55.35.48
+2025/01/15 10:23:34 Path /public/json/about.json not in blacklist
+2025/01/15 10:23:34 Client IP: 45.55.35.48, Request Path: /public/json/about.json
+[GIN] 2025/01/15 - 10:23:34 | 200 |      202.91µs |     45.55.35.48 | GET      "/public/json/contacts.json"
+2025/01/15 10:23:34 IP: 45.55.35.48, Country: US, City: Clifton
+2025/01/15 10:23:34 Database disabled. Skipping logging for IP: 45.55.35.48
+[GIN] 2025/01/15 - 10:23:34 | 200 |     295.935µs |     45.55.35.48 | GET      "/public/json/about.json"
+2025/01/15 10:30:42 Starting server at resume.connorisseur.com
+2025/01/15 10:30:42 Gin server error: listen tcp: address 8080: missing port in address
+2025/01/15 10:30:49 Starting server at resume.connorisseur.com
+2025/01/15 10:30:49 Gin server error: listen tcp: address 8080: missing port in address
+2025/01/15 10:30:56 Starting server at resume.connorisseur.com
+2025/01/15 10:30:56 Gin server error: listen tcp: address 8080: missing port in address
+2025/01/15 10:31:01 Starting server at resume.connorisseur.com
+2025/01/15 10:31:01 Gin server error: listen tcp: address 8080: missing port in address
+2025/01/15 10:31:31 Starting server at resume.connorisseur.com
+2025/01/15 10:31:31 Gin server error: listen tcp: address 8081: missing port in address
+2025/01/15 10:33:50 Starting server at resume.connorisseur.com
+2025/01/15 10:33:50 Gin server error: listen tcp :8080: bind: address already in use
+2025/01/15 10:33:55 Starting server at resume.connorisseur.com
+2025/01/15 10:33:55 Gin server error: listen tcp :8081: bind: address already in use
+2025/01/15 10:34:00 Starting server at resume.connorisseur.com

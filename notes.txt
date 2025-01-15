@@ -24,8 +24,6 @@ user_info schema:
 +---------------------+--------------+------+-----+---------+----------------+
 
 
-export NGROK_AUTH_TOKEN=""
-
 
 -- Create the user
 CREATE USER 'users1234'@'%' IDENTIFIED BY 'User1234';
@@ -35,10 +33,6 @@ GRANT ALL PRIVILEGES ON user_logs.* TO 'users1234'@'%';
 
 -- Apply the changes
 FLUSH PRIVILEGES;
-
-
-
-
 
 -- Create the database
 CREATE DATABASE IF NOT EXISTS user_logs;
@@ -70,3 +64,5 @@ CREATE TABLE IF NOT EXISTS user_info (
     city VARCHAR(100) DEFAULT NULL,
     PRIMARY KEY (id)
 );
+
+docker run -it --name resume_server_tunnel -e ACCESS_TOKEN=!!!!! -v /home/connor/Code/Resume_Website/config.yaml:/config.yaml localxpose/localxpose:latest tunnel config -f /config.yaml

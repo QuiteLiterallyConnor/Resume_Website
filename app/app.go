@@ -146,7 +146,7 @@ func startTunnel(localhost, hostname string) error {
 	return err
 }
 
-func StartServer() {
+func StartServer(port string) {
 	var err error
 	logFile, err = initLogger()
 	if err != nil {
@@ -174,7 +174,7 @@ func StartServer() {
 
 	r := SetupGinRouter(logFile, cityDB, countries)
 
-	localhost := ":8081"
+	localhost := ":"+port
 	hostname := "resume.connorisseur.com"
 
 	// Log that the server is starting locally

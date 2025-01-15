@@ -7,15 +7,8 @@
         GRANT ALL PRIVILEGES ON user_logs.* TO 'users1234'@'%';
         FLUSH PRIVILEGES;
 
-- Add ngrok key with:
-    export NGROK_AUTH_TOKEN=""
-
-- Build
-    docker compose build
-    go build -o main main.go
-
 TO RUN:
 -  
-    docker compose up -d
+    sh run_docker.sh
 or 
     go run main.go
